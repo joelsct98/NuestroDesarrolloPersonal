@@ -45,7 +45,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677158699505</updated>
+<<<<<<< HEAD
       <workItem from="1677158700848" duration="2259000" />
+=======
+      <workItem from="1677158700848" duration="1098000" />
+>>>>>>> origin/main
     </task>
     <task id="LOCAL-00001" summary="Primer commit igual a la plantilla de Bootstrap">
       <created>1677158906652</created>
@@ -54,6 +58,7 @@
       <option name="project" value="LOCAL" />
       <updated>1677158906652</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00002" summary="Quitado README.md">
       <created>1677160236211</created>
       <option name="number" value="00002" />
@@ -62,6 +67,9 @@
       <updated>1677160236211</updated>
     </task>
     <option name="localTasksCounter" value="3" />
+=======
+    <option name="localTasksCounter" value="2" />
+>>>>>>> origin/main
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,8 +90,12 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Primer commit igual a la plantilla de Bootstrap" />
+<<<<<<< HEAD
     <MESSAGE value="Quitado README.md" />
     <option name="LAST_COMMIT_MESSAGE" value="Quitado README.md" />
+=======
+    <option name="LAST_COMMIT_MESSAGE" value="Primer commit igual a la plantilla de Bootstrap" />
+>>>>>>> origin/main
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
