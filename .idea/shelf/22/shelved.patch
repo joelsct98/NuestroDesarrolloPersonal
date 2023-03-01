@@ -1,0 +1,698 @@
+Index: categorias/mentalidad.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n  <meta charset=\"utf-8\"/>\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"/>\r\n  <meta name=\"description\" content=\"\"/>\r\n  <meta name=\"author\" content=\"\"/>\r\n\r\n  <!-- Google Tag Manager -->\r\n  <script>(function (w, d, s, l, i) {\r\n    w[l] = w[l] || [];\r\n    w[l].push({\r\n      'gtm.start':\r\n              new Date().getTime(), event: 'gtm.js'\r\n    });\r\n    var f = d.getElementsByTagName(s)[0],\r\n            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';\r\n    j.async = true;\r\n    j.src =\r\n            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;\r\n    f.parentNode.insertBefore(j, f);\r\n  })(window, document, 'script', 'dataLayer', 'GTM-PMWF92R');</script>\r\n  <!-- End Google Tag Manager -->\r\n\r\n  <title>Clean Blog - Start Bootstrap Theme</title>\r\n  <link rel=\"icon\" type=\"image/x-icon\" href=\"../dist/assets/favicon.ico\"/>\r\n  <!-- Font Awesome icons (free version)-->\r\n  <script src=\"https://use.fontawesome.com/releases/v6.1.0/js/all.js\" crossorigin=\"anonymous\"></script>\r\n  <!-- Google fonts-->\r\n  <link href=\"https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic\" rel=\"stylesheet\"\r\n        type=\"text/css\"/>\r\n  <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800\"\r\n        rel=\"stylesheet\" type=\"text/css\"/>\r\n  <!-- Core theme CSS (includes Bootstrap)-->\r\n  <link href=\"../../dist/css/styles.css\" rel=\"stylesheet\"/>\r\n  <link href=\"../dist/css/estilos.css\" rel=\"stylesheet\"/>\r\n\r\n  <!-- Google tag (gtag.js) -->\r\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-EMFE9ECW0Q\"></script>\r\n  <script>\r\n    window.dataLayer = window.dataLayer || [];\r\n\r\n    function gtag() {\r\n      dataLayer.push(arguments);\r\n    }\r\n\r\n    gtag('js', new Date());\r\n\r\n    gtag('config', 'G-EMFE9ECW0Q');\r\n  </script>\r\n\r\n  <script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2374407174542373\"\r\n          crossorigin=\"anonymous\"></script>\r\n  <!-- Core theme CSS (includes Bootstrap)-->\r\n\r\n</head>\r\n\r\n<body>\r\n\r\n\r\n<!-- Google Tag Manager (noscript) -->\r\n<noscript>\r\n  <iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PMWF92R\"\r\n          height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\r\n</noscript>\r\n<!-- End Google Tag Manager (noscript) -->\r\n\r\n<main>\r\n  <!-- Navigation-->\r\n  <nav class=\"navbar navbar-expand-lg navbar-light\" id=\"mainNav\">\r\n    <div class=\"container px-4 px-lg-5\">\r\n      <a class=\"navbar-brand\" href=\"../index.html\">Nuestro Desarrollo Personal</a>\r\n      <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarResponsive\"\r\n              aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n        Menu\r\n        <i class=\"fas fa-bars\"></i>\r\n      </button>\r\n\r\n      <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\r\n        <ul class=\"navbar-nav ms-auto py-4 py-lg-0\">\r\n          <li class=\"nav-item\"><a class=\"nav-link px-lg-3 py-3 py-lg-4\" href=\"../index.html\">Inicio</a></li>\r\n          <li class=\"nav-item\"><a class=\"nav-link px-lg-3 py-3 py-lg-4\" href=\"../about.html\">Sobre mi</a></li>\r\n\r\n          <li class=\"nav-item dropdown\">\r\n            <a class=\"nav-link dropdown-toggle nav-link px-lg-3 py-3 py-lg-4\"\r\n               data-bs-toggle=\"dropdown\" href=\"#\" role=\"button\"\r\n               aria-expanded=\"false\">Categorías</a>\r\n            <ul class=\"dropdown-menu\">\r\n              <li><a class=\"dropdown-item\" href=\"categorias/mentalidad.html\">Mentalidad</a></li>\r\n              <li><a class=\"dropdown-item\" href=\"#\">Social</a></li>\r\n              <li><a class=\"dropdown-item\" href=\"#\">Espiritual</a></li>\r\n              <li><a class=\"dropdown-item\" href=\"#\">Emocional</a></li>\r\n              <li><a class=\"dropdown-item\" href=\"#\">Físico</a></li>\r\n              <li><a class=\"dropdown-item\" href=\"#\">Finanzas</a></li>\r\n            </ul>\r\n          </li>\r\n\r\n          <li class=\"nav-item\"><a class=\"nav-link px-lg-3 py-3 py-lg-4\" href=\"../contact.html\">Contáctanos</a>\r\n          </li>\r\n        </ul>\r\n      </div>\r\n\r\n\r\n    </div>\r\n  </nav>\r\n  <!-- Page Header-->\r\n  <header class=\"masthead\" style=\"background-image: url('../dist/assets/img/Mentalidad.jpg');\r\n                                            z-index: -1\">\r\n    <div class=\"container position-relative px-4 px-lg-5\">\r\n      <div class=\"row gx-4 gx-lg-5 justify-content-center\">\r\n        <div class=\"col-md-10 col-lg-8 col-xl-7\">\r\n          <div class=\"site-heading\">\r\n            <h2>Mentalidad</h2>\r\n            <span class=\"subheading\">El desarrollo es un proceso continuo de mejora de nuestras\r\n                                    vidas y de nosotros mismos. Independientemente de la edad que tengamos,\r\n                                    siempre hay formas de mejorar nuestro crecimiento y desarrollo personal.\r\n                                    En esta entrada del blog, echaremos un vistazo a seis formas distintas de mejorar\r\n                                    nuestro desarrollo personal. Exploraremos lo que cada una de estas\r\n                                    técnicas puede hacer por nosotros y cómo podemos utilizarlas para convertirnos\r\n                                    en mejores versiones de nosotros mismos. Así que si estás buscando formas de\r\n                                    mejorar tu crecimiento personal, ¡Este blog es perfecto para ti! </span>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </header>\r\n\r\n  <br>\r\n  <br>\r\n  <!-- Main Content-->\r\n  <div class=\"container px-4 px-lg-5\">\r\n    <div class=\"row mb-4\">\r\n      <div id=\"imagenizq\" class=\"col-12 col-md-6 col-lg-6\">\r\n        <a href=\"../dist/blog/mentalidad/Consejos_para_mejorar_tu_autoestima_y_ser_más_confiado.html\">\r\n          <img src=\"../dist/assets/img/autoestima-1.jpg\" class=\"card-img\" alt=\"CookTimer\">\r\n        </a>\r\n      </div>\r\n      <div class=\"col-12 col-md-6 col-lg-6\">\r\n        <div class=\"row\">\r\n          <div class=\"col-12\">\r\n            <a href=\"#\">\r\n              <span id=\"palo\">| </span>Mentalidad<span id=\"palo\"> |</span>\r\n            </a><br>\r\n          </div>\r\n          <div class=\"col-12\">\r\n            <h3>Consejos para mejorar tu autoestima y ser más confiado</h3>\r\n          </div>\r\n          <div class=\"col-12\">\r\n            Cuando se trata de la autoestima, mucha gente no reconoce que es una\r\n            habilidad que puede mejorarse. Tanto si te sientes mal contigo mismo como si simplemente\r\n            quieres mejorar tu confianza general, estos consejos te ayudarán en tu camino. ¿A qué esperas?\r\n            ¡Empieza hoy mismo a vivir como una persona segura de sí misma!\r\n            <br><br>\r\n          </div>\r\n          <div class=\"col-12\">\r\n            <a href=\"../dist/blog/mentalidad/Consejos_para_mejorar_tu_autoestima_y_ser_más_confiado.html\">\r\n              <button type=\"button\" value=\"1\" class=\"btn btn-success float-right\">Conocer más</button>\r\n            </a>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n\r\n  </div>\r\n\r\n\r\n  <br>\r\n  <br>\r\n  <br>\r\n  <br>\r\n  <!-- Footer-->\r\n  <footer class=\"border-top\">\r\n    <div class=\"container px-4 px-lg-5\">\r\n      <div class=\"row gx-4 gx-lg-5 justify-content-center\">\r\n        <div class=\"col-md-10 col-lg-8 col-xl-7\">\r\n          <ul class=\"list-inline text-center\">\r\n            <li class=\"list-inline-item\">\r\n              <a href=\"#!\">\r\n                                        <span class=\"fa-stack fa-lg\">\r\n                                            <i class=\"fas fa-circle fa-stack-2x\"></i>\r\n                                            <i class=\"fab fa-twitter fa-stack-1x fa-inverse\"></i>\r\n                                        </span>\r\n              </a>\r\n            </li>\r\n            <li class=\"list-inline-item\">\r\n              <a href=\"#!\">\r\n                                        <span class=\"fa-stack fa-lg\">\r\n                                            <i class=\"fas fa-circle fa-stack-2x\"></i>\r\n                                            <i class=\"fab fa-facebook-f fa-stack-1x fa-inverse\"></i>\r\n                                        </span>\r\n              </a>\r\n            </li>\r\n            <li class=\"list-inline-item\">\r\n              <a href=\"#!\">\r\n                                        <span class=\"fa-stack fa-lg\">\r\n                                            <i class=\"fas fa-circle fa-stack-2x\"></i>\r\n                                            <i class=\"fab fa-github fa-stack-1x fa-inverse\"></i>\r\n                                        </span>\r\n              </a>\r\n            </li>\r\n          </ul>\r\n          <div class=\"small text-center text-muted fst-italic\">2023 Copyright. All Rights Reserved.\r\n          </div>\r\n          <br>\r\n          <div class=\"small text-center text-muted fst-italic\">\r\n            <a href=\"../dist/politicasPrivacidad/politica-privacidad.html\">Política de Privacidad</a>\r\n            -\r\n            <a href=\"../dist/politicasPrivacidad/aviso-legal.html\">Aviso Legal</a>\r\n            -\r\n            <a href=\"../dist/politicasPrivacidad/aviso-cookies.html\">Política de Cookies</a>\r\n          </div>\r\n        </div>\r\n\r\n      </div>\r\n    </div>\r\n  </footer>\r\n\r\n  <!-- No mirar apartir de aqui-->\r\n  <!-- Bootstrap core JS-->\r\n  <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/../dist/js/bootstrap.bundle.min.js\"></script>\r\n  <!-- Core theme JS-->\r\n  <script src=\"../dist/js/scripts.js\"></script>\r\n\r\n  <div class=\"aviso-cookies\" id=\"aviso-cookies\">\r\n    <img class=\"galleta\" src=\"../dist/assets/img/cookie.svg\" alt=\"Galleta\">\r\n    <h3 class=\"titulo\">Cookies</h3>\r\n    <p class=\"parrafo\">Utilizamos cookies propias y de terceros para mejorar nuestros servicios.</p>\r\n    <button class=\"boton\" id=\"btn-aceptar-cookies\">De acuerdo</button>\r\n    <a class=\"enlace\" href=\"../dist/politicasPrivacidad/aviso-cookies.html\">Aviso de Cookies</a>\r\n  </div>\r\n  <div class=\"fondo-aviso-cookies\" id=\"fondo-aviso-cookies\"></div>\r\n\r\n  <script src=\"../dist/js/aviso-cookies.js\"></script>\r\n  <!-- Termina No mirar apartir de aqui-->\r\n</main>\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/categorias/mentalidad.html b/categorias/mentalidad.html
+--- a/categorias/mentalidad.html	(revision ec7eecf95891eea4d211d6d5591069a3d9a37b39)
++++ b/categorias/mentalidad.html	(date 1677510430762)
+@@ -32,8 +32,8 @@
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+         rel="stylesheet" type="text/css"/>
+   <!-- Core theme CSS (includes Bootstrap)-->
+-  <link href="../../dist/css/styles.css" rel="stylesheet"/>
+   <link href="../dist/css/estilos.css" rel="stylesheet"/>
++  <link href="../../dist/css/styles.css" rel="stylesheet"/>
+ 
+   <!-- Google tag (gtag.js) -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-EMFE9ECW0Q"></script>
+@@ -56,8 +56,6 @@
+ </head>
+ 
+ <body>
+-
+-
+ <!-- Google Tag Manager (noscript) -->
+ <noscript>
+   <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMWF92R"
+@@ -65,65 +63,24 @@
+ </noscript>
+ <!-- End Google Tag Manager (noscript) -->
+ 
+-<main>
+-  <!-- Navigation-->
+-  <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+-    <div class="container px-4 px-lg-5">
+-      <a class="navbar-brand" href="../index.html">Nuestro Desarrollo Personal</a>
+-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+-              aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+-        Menu
+-        <i class="fas fa-bars"></i>
+-      </button>
+-
+-      <div class="collapse navbar-collapse" id="navbarResponsive">
+-        <ul class="navbar-nav ms-auto py-4 py-lg-0">
+-          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../index.html">Inicio</a></li>
+-          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../about.html">Sobre mi</a></li>
+-
+-          <li class="nav-item dropdown">
+-            <a class="nav-link dropdown-toggle nav-link px-lg-3 py-3 py-lg-4"
+-               data-bs-toggle="dropdown" href="#" role="button"
+-               aria-expanded="false">Categorías</a>
+-            <ul class="dropdown-menu">
+-              <li><a class="dropdown-item" href="categorias/mentalidad.html">Mentalidad</a></li>
+-              <li><a class="dropdown-item" href="#">Social</a></li>
+-              <li><a class="dropdown-item" href="#">Espiritual</a></li>
+-              <li><a class="dropdown-item" href="#">Emocional</a></li>
+-              <li><a class="dropdown-item" href="#">Físico</a></li>
+-              <li><a class="dropdown-item" href="#">Finanzas</a></li>
+-            </ul>
+-          </li>
+-
+-          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../contact.html">Contáctanos</a>
+-          </li>
+-        </ul>
+-      </div>
++<main id="app">
+ 
+-
+-    </div>
+-  </nav>
+-  <!-- Page Header-->
+-  <header class="masthead" style="background-image: url('../dist/assets/img/Mentalidad.jpg');
+-                                            z-index: -1">
+-    <div class="container position-relative px-4 px-lg-5">
+-      <div class="row gx-4 gx-lg-5 justify-content-center">
+-        <div class="col-md-10 col-lg-8 col-xl-7">
+-          <div class="site-heading">
+-            <h2>Mentalidad</h2>
+-            <span class="subheading">El desarrollo es un proceso continuo de mejora de nuestras
++  <input v-show="mostrarInput" ref="rutaPrimerNivelIndex" type="text" value="../">
++  <input v-show="mostrarInput" ref="rutaCategorias" type="text" value="#">
++  <input v-show="mostrarInput" ref="rutaImagenesNav" type="text" value="../dist/assets/img/Mentalidad.jpg">
++  <input v-show="mostrarInput" ref="redireccionMismaPagina" type="text" value="#">
++  <input v-show="mostrarInput" ref="titulo" type="text" value="Mentalidad">
++  <input v-show="mostrarInput" ref="entrada" type="text" value="El desarrollo es un proceso continuo de mejora de nuestras
+                                     vidas y de nosotros mismos. Independientemente de la edad que tengamos,
+                                     siempre hay formas de mejorar nuestro crecimiento y desarrollo personal.
+                                     En esta entrada del blog, echaremos un vistazo a seis formas distintas de mejorar
+                                     nuestro desarrollo personal. Exploraremos lo que cada una de estas
+                                     técnicas puede hacer por nosotros y cómo podemos utilizarlas para convertirnos
+                                     en mejores versiones de nosotros mismos. Así que si estás buscando formas de
+-                                    mejorar tu crecimiento personal, ¡Este blog es perfecto para ti! </span>
+-          </div>
+-        </div>
+-      </div>
+-    </div>
+-  </header>
++                                    mejorar tu crecimiento personal, ¡Este blog es perfecto para ti!">
++
++  <div v-html="navbar"></div>
++
+ 
+   <br>
+   <br>
+@@ -169,55 +126,19 @@
+   <br>
+   <br>
+   <!-- Footer-->
+-  <footer class="border-top">
+-    <div class="container px-4 px-lg-5">
+-      <div class="row gx-4 gx-lg-5 justify-content-center">
+-        <div class="col-md-10 col-lg-8 col-xl-7">
+-          <ul class="list-inline text-center">
+-            <li class="list-inline-item">
+-              <a href="#!">
+-                                        <span class="fa-stack fa-lg">
+-                                            <i class="fas fa-circle fa-stack-2x"></i>
+-                                            <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+-                                        </span>
+-              </a>
+-            </li>
+-            <li class="list-inline-item">
+-              <a href="#!">
+-                                        <span class="fa-stack fa-lg">
+-                                            <i class="fas fa-circle fa-stack-2x"></i>
+-                                            <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+-                                        </span>
+-              </a>
+-            </li>
+-            <li class="list-inline-item">
+-              <a href="#!">
+-                                        <span class="fa-stack fa-lg">
+-                                            <i class="fas fa-circle fa-stack-2x"></i>
+-                                            <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+-                                        </span>
+-              </a>
+-            </li>
+-          </ul>
+-          <div class="small text-center text-muted fst-italic">2023 Copyright. All Rights Reserved.
+-          </div>
+-          <br>
+-          <div class="small text-center text-muted fst-italic">
+-            <a href="../dist/politicasPrivacidad/politica-privacidad.html">Política de Privacidad</a>
+-            -
+-            <a href="../dist/politicasPrivacidad/aviso-legal.html">Aviso Legal</a>
+-            -
+-            <a href="../dist/politicasPrivacidad/aviso-cookies.html">Política de Cookies</a>
+-          </div>
+-        </div>
++
++  <div v-html="footerPage"></div>
+ 
+-      </div>
+-    </div>
+-  </footer>
++  <!--Vue.js-->
++  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
++  <script src="../dist/js/vue/template.js"></script>
++  <link href="../../dist/css/styles.css" rel="stylesheet"/>
++  <!--Final Vue.js-->
++
+ 
+   <!-- No mirar apartir de aqui-->
+   <!-- Bootstrap core JS-->
+-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/../dist/js/bootstrap.bundle.min.js"></script>
++  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- Core theme JS-->
+   <script src="../dist/js/scripts.js"></script>
+ 
+@@ -232,6 +153,14 @@
+ 
+   <script src="../dist/js/aviso-cookies.js"></script>
+   <!-- Termina No mirar apartir de aqui-->
++
++  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
++          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
++          crossorigin="anonymous"></script>
++  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
++          integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
++          crossorigin="anonymous"></script>
++  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+ </main>
+ </body>
+ </html>
+Index: dist/blog/mentalidad/Consejos_para_mejorar_tu_autoestima_y_ser_más_confiado.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n  <meta charset=\"utf-8\"/>\r\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\"/>\r\n  <meta name=\"description\" content=\"\"/>\r\n  <meta name=\"author\" content=\"\"/>\r\n\r\n  <!-- Google Tag Manager -->\r\n  <script>(function (w, d, s, l, i) {\r\n    w[l] = w[l] || [];\r\n    w[l].push({\r\n      'gtm.start':\r\n              new Date().getTime(), event: 'gtm.js'\r\n    });\r\n    var f = d.getElementsByTagName(s)[0],\r\n            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';\r\n    j.async = true;\r\n    j.src =\r\n            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;\r\n    f.parentNode.insertBefore(j, f);\r\n  })(window, document, 'script', 'dataLayer', 'GTM-PMWF92R');</script>\r\n  <!-- End Google Tag Manager -->\r\n\r\n  <title>Clean Blog - Start Bootstrap Theme</title>\r\n  <link rel=\"icon\" type=\"image/x-icon\" href=\"../../assets/favicon.ico\"/>\r\n  <!-- Font Awesome icons (free version)-->\r\n  <script src=\"https://use.fontawesome.com/releases/v6.1.0/js/all.js\" crossorigin=\"anonymous\"></script>\r\n  <!-- Google fonts-->\r\n  <link href=\"https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic\" rel=\"stylesheet\"\r\n        type=\"text/css\"/>\r\n  <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800\"\r\n        rel=\"stylesheet\" type=\"text/css\"/>\r\n  <!-- Core theme CSS (includes Bootstrap)-->\r\n  <link href=\"../../../dist/css/styles.css\" rel=\"stylesheet\"/>\r\n  <link href=\"../../css/estilos.css\" rel=\"stylesheet\"/>\r\n\r\n  <!-- Google tag (gtag.js) -->\r\n  <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-EMFE9ECW0Q\"></script>\r\n  <script>\r\n    window.dataLayer = window.dataLayer || [];\r\n\r\n    function gtag() {\r\n      dataLayer.push(arguments);\r\n    }\r\n\r\n    gtag('js', new Date());\r\n\r\n    gtag('config', 'G-EMFE9ECW0Q');\r\n  </script>\r\n\r\n  <script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2374407174542373\"\r\n          crossorigin=\"anonymous\"></script>\r\n  <!-- Core theme CSS (includes Bootstrap)-->\r\n\r\n</head>\r\n\r\n<body>\r\n\r\n\r\n<!-- Google Tag Manager (noscript) -->\r\n<noscript>\r\n  <iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PMWF92R\"\r\n          height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\r\n</noscript>\r\n<!-- End Google Tag Manager (noscript) -->\r\n\r\n<main>\r\n  <!-- Navigation-->\r\n  <nav class=\"navbar navbar-expand-lg navbar-light\" id=\"mainNav\">\r\n    <div class=\"container px-4 px-lg-5\">\r\n      <a class=\"navbar-brand\" href=\"../../../index.html\">Nuestro Desarrollo Personal</a>\r\n      <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarResponsive\"\r\n              aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n        Menu\r\n        <i class=\"fas fa-bars\"></i>\r\n      </button>\r\n\r\n      <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\r\n        <ul class=\"navbar-nav ms-auto py-4 py-lg-0\">\r\n          <li class=\"nav-item\"><a class=\"nav-link px-lg-3 py-3 py-lg-4\" href=\"../../../index.html\">Inicio</a></li>\r\n          <li class=\"nav-item\"><a class=\"nav-link px-lg-3 py-3 py-lg-4\" href=\"../../../about.html\">Sobre mi</a></li>\r\n\r\n          <li class=\"nav-item dropdown\">\r\n            <a class=\"nav-link dropdown-toggle nav-link px-lg-3 py-3 py-lg-4\"\r\n               data-bs-toggle=\"dropdown\" href=\"#\" role=\"button\"\r\n               aria-expanded=\"false\">Categorías</a>\r\n            <ul class=\"dropdown-menu\">\r\n              <li><a class=\"dropdown-item\" href=\"categorias/mentalidad.html\">Mentalidad</a></li>\r\n              <li><a class=\"dropdown-item\" href=\"#\">Social</a></li>\r\n              <li><a class=\"dropdown-item\" href=\"#\">Espiritual</a></li>\r\n              <li><a class=\"dropdown-item\" href=\"#\">Emocional</a></li>\r\n              <li><a class=\"dropdown-item\" href=\"#\">Físico</a></li>\r\n              <li><a class=\"dropdown-item\" href=\"#\">Finanzas</a></li>\r\n            </ul>\r\n          </li>\r\n\r\n          <li class=\"nav-item\"><a class=\"nav-link px-lg-3 py-3 py-lg-4\" href=\"../../../contact.html\">Contáctanos</a>\r\n          </li>\r\n        </ul>\r\n      </div>\r\n\r\n\r\n    </div>\r\n  </nav>\r\n  <!-- Page Header-->\r\n  <header class=\"masthead\" style=\"background-image: url('../../assets/img/Mentalidad.jpg');\r\n                                            z-index: -1\">\r\n    <div class=\"container position-relative px-4 px-lg-5\">\r\n      <div class=\"row gx-4 gx-lg-5 justify-content-center\">\r\n        <div class=\"col-md-10 col-lg-8 col-xl-7\">\r\n          <div class=\"site-heading\">\r\n            <h2><strong>Consejos para mejorar tu autoestima y ser m&aacute;s confiado</strong></h2>\r\n            <span class=\"subheading\">\r\n            Cuando se trata de la autoestima, mucha gente no reconoce que es una\r\n            habilidad que puede mejorarse. Tanto si te sientes mal contigo mismo como si simplemente\r\n            quieres mejorar tu confianza general, estos consejos te ayudarán en tu camino. ¿A qué esperas?\r\n            ¡Empieza hoy mismo a vivir como una persona segura de sí misma! </span>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n  </header>\r\n\r\n  <br>\r\n  <br>\r\n  <!-- Main Content-->\r\n  <div class=\"container px-4 px-lg-5\">\r\n    <h1>&iquest;Qu&eacute; es la autoestima?</h1>\r\n    <p>La autoestima es una evaluaci&oacute;n subjetiva que una persona hace sobre s&iacute; misma. Desde el punto de\r\n      vista psicol&oacute;gico, se refiere a la valoraci&oacute;n de la propia persona y a la comprensi&oacute;n de la\r\n      importancia y significado de la misma. Esta evaluaci&oacute;n es generalmente positiva, pues revela la opini&oacute;n\r\n      de uno sobre s&iacute; mismo.</p>\r\n    <h1>Las 8 mejores formas de mejorar tu autoestima</h1>\r\n    <p>Mejorar tu autoestima es un proceso que lleva tiempo y esfuerzo por tu parte. Existen muchas formas en las que\r\n      puedes mejorar tu autoestima y sentirte m&aacute;s seguro de ti mismo. Aqu&iacute; hay algunos consejos para\r\n      mejorar tu autoestima y sentirte mejor contigo mismo:</p>\r\n    <h2>Acepta tus defectos</h2>\r\n    <p>Debes aceptar tus defectos y tratar de mejorar los aspectos en los que no est&aacute;s satisfecho. Esto te ayudar&aacute;\r\n      a aceptarte a ti mismo y te har&aacute; sentir m&aacute;s seguro de ti mismo.</p>\r\n    <h2>Haz ejercicio f&iacute;sico</h2>\r\n    <p>La pr&aacute;ctica regular de ejercicio te ayuda a mejorar tu autoestima porque genera endorfinas, que son\r\n      substancias qu&iacute;micas producidas por el cuerpo y que contribuyen a la producci&oacute;n de sentimientos de\r\n      bienestar. Adem&aacute;s, el ejercicio tambi&eacute;n puede ayudarte a conciliar mejor el sue&ntilde;o y descansar\r\n      mejor.</p>\r\n    <h2>Pensamiento positivo</h2>\r\n    <p>Es fundamental que trabajes en positivizar tus pensamientos para mejorar tu autoestima. Intenta afrontar los\r\n      problemas con soluciones basadas en el optimismo para superar los desaf&iacute;os que se te presenten.</p>\r\n    <h2>Comun&iacute;cate con respeto</h2>\r\n    <p>El lenguaje coloquial se ha convertido en un curso ordinario del discurso diario. Pero, para mejorar tu\r\n      autoestima, debes evitar el uso de palabras o frases ofensivas, y expresarte con respeto.</p>\r\n    <h2>S&eacute; amable contigo mismo</h2>\r\n    <p>Es importante que te trates a ti mismo como lo har&iacute;as con un amigo. Date permiso para divertirte y\r\n      relajarte. Pru&eacute;bate ropa con la que te sientas c&oacute;modo. Al disminuir la presi&oacute;n sobre ti mismo\r\n      para ser el mejor en todo, te sentir&aacute;s libre para actuar y disfrutar de la vida.</p>\r\n    <h2>Optimiza tu dieta</h2>\r\n    <p>Una alimentaci&oacute;n adecuada es crucial para mejorar tu autoestima. Come comida f&aacute;cil de digerir hecha\r\n      con buenos ingredientes, ya que esto har&aacute; que te sientas energizado y lleno de vida.</p>\r\n    <h2>Ayuda a otros</h2>\r\n    <p>Ayudar a otros es una forma maravillosa de mejorar tu autoestima. No s&oacute;lo har&aacute;s el bien a los dem&aacute;s,\r\n      sino que tambi&eacute;n te sentir&aacute;s bien contigo mismo. Ya sea que ayudes a un vecino o a un miembro de la\r\n      familia, todos seremos beneficiados.</p>\r\n    <h2>Ten tiempo para ti mismo</h2>\r\n    <p>Es importante tener tiempo de calidad para uno mismo. Dedicar 15 minutos al d&iacute;a a una actividad que\r\n      disfrutes te ayudar&aacute; a relajarte y a mejorar tu autoestima.</p>\r\n    <h1>Conclusion</h1>\r\n    <p>Espero que estos consejos para mejorar tu autoestima te ayuden a desarrollar una imagen positiva de ti mismo.\r\n      Cuando te sientas bien contigo mismo, tendr&aacute;s la energ&iacute;a y el optimismo para enfrentar los desaf&iacute;os\r\n      de la vida y disfrutar de la vida al m&aacute;ximo.</p>\r\n  </div>\r\n\r\n\r\n  <br>\r\n  <br>\r\n  <br>\r\n  <br>\r\n  <!-- Footer-->\r\n  <footer class=\"border-top\">\r\n    <div class=\"container px-4 px-lg-5\">\r\n      <div class=\"row gx-4 gx-lg-5 justify-content-center\">\r\n        <div class=\"col-md-10 col-lg-8 col-xl-7\">\r\n          <ul class=\"list-inline text-center\">\r\n            <li class=\"list-inline-item\">\r\n              <a href=\"#!\">\r\n                                        <span class=\"fa-stack fa-lg\">\r\n                                            <i class=\"fas fa-circle fa-stack-2x\"></i>\r\n                                            <i class=\"fab fa-twitter fa-stack-1x fa-inverse\"></i>\r\n                                        </span>\r\n              </a>\r\n            </li>\r\n            <li class=\"list-inline-item\">\r\n              <a href=\"#!\">\r\n                                        <span class=\"fa-stack fa-lg\">\r\n                                            <i class=\"fas fa-circle fa-stack-2x\"></i>\r\n                                            <i class=\"fab fa-facebook-f fa-stack-1x fa-inverse\"></i>\r\n                                        </span>\r\n              </a>\r\n            </li>\r\n            <li class=\"list-inline-item\">\r\n              <a href=\"#!\">\r\n                                        <span class=\"fa-stack fa-lg\">\r\n                                            <i class=\"fas fa-circle fa-stack-2x\"></i>\r\n                                            <i class=\"fab fa-github fa-stack-1x fa-inverse\"></i>\r\n                                        </span>\r\n              </a>\r\n            </li>\r\n          </ul>\r\n          <div class=\"small text-center text-muted fst-italic\">2023 Copyright. All Rights Reserved.\r\n          </div>\r\n          <br>\r\n          <div class=\"small text-center text-muted fst-italic\">\r\n            <a href=\"../../politicasPrivacidad/politica-privacidad.html\">Política de Privacidad</a>\r\n            -\r\n            <a href=\"../../politicasPrivacidad/aviso-legal.html\">Aviso Legal</a>\r\n            -\r\n            <a href=\"../../politicasPrivacidad/aviso-cookies.html\">Política de Cookies</a>\r\n          </div>\r\n        </div>\r\n\r\n      </div>\r\n    </div>\r\n  </footer>\r\n\r\n  <!-- No mirar apartir de aqui-->\r\n  <!-- Bootstrap core JS-->\r\n  <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/../dist/js/bootstrap.bundle.min.js\"></script>\r\n  <!-- Core theme JS-->\r\n  <script src=\"../../js/scripts.js\"></script>\r\n\r\n  <div class=\"aviso-cookies\" id=\"aviso-cookies\">\r\n    <img class=\"galleta\" src=\"../../assets/img/cookie.svg\" alt=\"Galleta\">\r\n    <h3 class=\"titulo\">Cookies</h3>\r\n    <p class=\"parrafo\">Utilizamos cookies propias y de terceros para mejorar nuestros servicios.</p>\r\n    <button class=\"boton\" id=\"btn-aceptar-cookies\">De acuerdo</button>\r\n    <a class=\"enlace\" href=\"../../politicasPrivacidad/aviso-cookies.html\">Aviso de Cookies</a>\r\n  </div>\r\n  <div class=\"fondo-aviso-cookies\" id=\"fondo-aviso-cookies\"></div>\r\n\r\n  <script src=\"../../js/aviso-cookies.js\"></script>\r\n  <!-- Termina No mirar apartir de aqui-->\r\n</main>\r\n</body>\r\n</html>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/dist/blog/mentalidad/Consejos_para_mejorar_tu_autoestima_y_ser_más_confiado.html b/dist/blog/mentalidad/Consejos_para_mejorar_tu_autoestima_y_ser_más_confiado.html
+--- a/dist/blog/mentalidad/Consejos_para_mejorar_tu_autoestima_y_ser_más_confiado.html	(revision ec7eecf95891eea4d211d6d5591069a3d9a37b39)
++++ b/dist/blog/mentalidad/Consejos_para_mejorar_tu_autoestima_y_ser_más_confiado.html	(date 1677509766397)
+@@ -65,62 +65,25 @@
+ </noscript>
+ <!-- End Google Tag Manager (noscript) -->
+ 
+-<main>
+-  <!-- Navigation-->
+-  <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+-    <div class="container px-4 px-lg-5">
+-      <a class="navbar-brand" href="../../../index.html">Nuestro Desarrollo Personal</a>
+-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+-              aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+-        Menu
+-        <i class="fas fa-bars"></i>
+-      </button>
+ 
+-      <div class="collapse navbar-collapse" id="navbarResponsive">
+-        <ul class="navbar-nav ms-auto py-4 py-lg-0">
+-          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../../../index.html">Inicio</a></li>
+-          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../../../about.html">Sobre mi</a></li>
++<main id="app">
+ 
+-          <li class="nav-item dropdown">
+-            <a class="nav-link dropdown-toggle nav-link px-lg-3 py-3 py-lg-4"
+-               data-bs-toggle="dropdown" href="#" role="button"
+-               aria-expanded="false">Categorías</a>
+-            <ul class="dropdown-menu">
+-              <li><a class="dropdown-item" href="categorias/mentalidad.html">Mentalidad</a></li>
+-              <li><a class="dropdown-item" href="#">Social</a></li>
+-              <li><a class="dropdown-item" href="#">Espiritual</a></li>
+-              <li><a class="dropdown-item" href="#">Emocional</a></li>
+-              <li><a class="dropdown-item" href="#">Físico</a></li>
+-              <li><a class="dropdown-item" href="#">Finanzas</a></li>
+-            </ul>
+-          </li>
++  <input v-show="mostrarInput" ref="rutaPrimerNivelIndex" type="text" value="../">
++  <input v-show="mostrarInput" ref="rutaCategorias" type="text" value="#">
++  <input v-show="mostrarInput" ref="rutaImagenesNav" type="text" value="../dist/assets/img/Mentalidad.jpg">
++  <input v-show="mostrarInput" ref="redireccionMismaPagina" type="text" value="#">
++  <input v-show="mostrarInput" ref="titulo" type="text" value="Mentalidad">
++  <input v-show="mostrarInput" ref="entrada" type="text" value="El desarrollo es un proceso continuo de mejora de nuestras
++                                    vidas y de nosotros mismos. Independientemente de la edad que tengamos,
++                                    siempre hay formas de mejorar nuestro crecimiento y desarrollo personal.
++                                    En esta entrada del blog, echaremos un vistazo a seis formas distintas de mejorar
++                                    nuestro desarrollo personal. Exploraremos lo que cada una de estas
++                                    técnicas puede hacer por nosotros y cómo podemos utilizarlas para convertirnos
++                                    en mejores versiones de nosotros mismos. Así que si estás buscando formas de
++                                    mejorar tu crecimiento personal, ¡Este blog es perfecto para ti!">
+ 
+-          <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../../../contact.html">Contáctanos</a>
+-          </li>
+-        </ul>
+-      </div>
++  <div v-html="navPage"></div>
+ 
+-
+-    </div>
+-  </nav>
+-  <!-- Page Header-->
+-  <header class="masthead" style="background-image: url('../../assets/img/Mentalidad.jpg');
+-                                            z-index: -1">
+-    <div class="container position-relative px-4 px-lg-5">
+-      <div class="row gx-4 gx-lg-5 justify-content-center">
+-        <div class="col-md-10 col-lg-8 col-xl-7">
+-          <div class="site-heading">
+-            <h2><strong>Consejos para mejorar tu autoestima y ser m&aacute;s confiado</strong></h2>
+-            <span class="subheading">
+-            Cuando se trata de la autoestima, mucha gente no reconoce que es una
+-            habilidad que puede mejorarse. Tanto si te sientes mal contigo mismo como si simplemente
+-            quieres mejorar tu confianza general, estos consejos te ayudarán en tu camino. ¿A qué esperas?
+-            ¡Empieza hoy mismo a vivir como una persona segura de sí misma! </span>
+-          </div>
+-        </div>
+-      </div>
+-    </div>
+-  </header>
+ 
+   <br>
+   <br>
+@@ -175,51 +138,15 @@
+   <br>
+   <br>
+   <!-- Footer-->
+-  <footer class="border-top">
+-    <div class="container px-4 px-lg-5">
+-      <div class="row gx-4 gx-lg-5 justify-content-center">
+-        <div class="col-md-10 col-lg-8 col-xl-7">
+-          <ul class="list-inline text-center">
+-            <li class="list-inline-item">
+-              <a href="#!">
+-                                        <span class="fa-stack fa-lg">
+-                                            <i class="fas fa-circle fa-stack-2x"></i>
+-                                            <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+-                                        </span>
+-              </a>
+-            </li>
+-            <li class="list-inline-item">
+-              <a href="#!">
+-                                        <span class="fa-stack fa-lg">
+-                                            <i class="fas fa-circle fa-stack-2x"></i>
+-                                            <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+-                                        </span>
+-              </a>
+-            </li>
+-            <li class="list-inline-item">
+-              <a href="#!">
+-                                        <span class="fa-stack fa-lg">
+-                                            <i class="fas fa-circle fa-stack-2x"></i>
+-                                            <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+-                                        </span>
+-              </a>
+-            </li>
+-          </ul>
+-          <div class="small text-center text-muted fst-italic">2023 Copyright. All Rights Reserved.
+-          </div>
+-          <br>
+-          <div class="small text-center text-muted fst-italic">
+-            <a href="../../politicasPrivacidad/politica-privacidad.html">Política de Privacidad</a>
+-            -
+-            <a href="../../politicasPrivacidad/aviso-legal.html">Aviso Legal</a>
+-            -
+-            <a href="../../politicasPrivacidad/aviso-cookies.html">Política de Cookies</a>
+-          </div>
+-        </div>
++
++  <!-- Footer-->
+ 
+-      </div>
+-    </div>
+-  </footer>
++  <div v-html="footerPage"></div>
++
++  <!--Vue.js-->
++  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
++  <script src="../../../dist/js/vue/template.js"></script>
++  <!--Final Vue.js-->
+ 
+   <!-- No mirar apartir de aqui-->
+   <!-- Bootstrap core JS-->
+Index: CodigoUtil/Footer.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CodigoUtil/Footer.html b/CodigoUtil/Footer.html
+new file mode 100644
+--- /dev/null	(date 1677508962418)
++++ b/CodigoUtil/Footer.html	(date 1677508962418)
+@@ -0,0 +1,45 @@
++<footer class="border-top">
++    <div class="container px-4 px-lg-5">
++        <div class="row gx-4 gx-lg-5 justify-content-center">
++            <div class="col-md-10 col-lg-8 col-xl-7">
++                <ul class="list-inline text-center">
++                    <li class="list-inline-item">
++                        <a href="#!">
++                                        <span class="fa-stack fa-lg">
++                                            <i class="fas fa-circle fa-stack-2x"></i>
++                                            <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
++                                        </span>
++                        </a>
++                    </li>
++                    <li class="list-inline-item">
++                        <a href="#!">
++                                        <span class="fa-stack fa-lg">
++                                            <i class="fas fa-circle fa-stack-2x"></i>
++                                            <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
++                                        </span>
++                        </a>
++                    </li>
++                    <li class="list-inline-item">
++                        <a href="#!">
++                                        <span class="fa-stack fa-lg">
++                                            <i class="fas fa-circle fa-stack-2x"></i>
++                                            <i class="fab fa-github fa-stack-1x fa-inverse"></i>
++                                        </span>
++                        </a>
++                    </li>
++                </ul>
++                <div class="small text-center text-muted fst-italic">2023 Copyright. All Rights Reserved.
++                </div>
++                <br>
++                <div class="small text-center text-muted fst-italic">
++                    <a href="../dist/politicasPrivacidad/politica-privacidad.html">Política de Privacidad</a>
++                    -
++                    <a href="../dist/politicasPrivacidad/aviso-legal.html">Aviso Legal</a>
++                    -
++                    <a href="../dist/politicasPrivacidad/aviso-cookies.html">Política de Cookies</a>
++                </div>
++            </div>
++
++        </div>
++    </div>
++</footer>
+Index: dist/js/vue/template.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/dist/js/vue/template.js b/dist/js/vue/template.js
+new file mode 100644
+--- /dev/null	(date 1677509853785)
++++ b/dist/js/vue/template.js	(date 1677509853785)
+@@ -0,0 +1,230 @@
++new Vue({
++    el: "#app",
++    data() {
++        return {
++            rutaPrimerNivelIndex: null,
++            rutaCategorias: null,
++            rutaImagenesNav: null,
++            redireccionMismaPagina: null,
++            titulo: null,
++            entrada: null,
++            mostrarInput: false,
++            navbar: "  <!-- Navigation-->\n" +
++                "  <nav class=\"navbar navbar-expand-lg navbar-light\" id=\"mainNav\">\n" +
++                "    <div class=\"container px-4 px-lg-5\">\n" +
++                "      <a class=\"navbar-brand\" href=\"" + this.rutaPrimerNivelIndex + "index.html\">Nuestro Desarrollo Personal</a>\n" +
++                "      <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarResponsive\"\n" +
++                "              aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n" +
++                "        Menu\n" +
++                "        <i class=\"fas fa-bars\"></i>\n" +
++                "      </button>\n" +
++                "\n" +
++                "      <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n" +
++                "        <ul class=\"navbar-nav ms-auto py-4 py-lg-0\">\n" +
++                "          <li class=\"nav-item\"><a class=\"nav-link px-lg-3 py-3 py-lg-4\" href=\"" + this.rutaPrimerNivelIndex + "index.html\">Inicio</a></li>\n" +
++                "          <li class=\"nav-item\"><a class=\"nav-link px-lg-3 py-3 py-lg-4\" href=\"" + this.rutaPrimerNivelIndex + "about.html\">Sobre mi</a></li>\n" +
++                "          <li class=\"nav-item\"><a class=\"nav-link px-lg-3 py-3 py-lg-4\" href=\"" + this.rutaPrimerNivelIndex + "about.html\">Sobre mi</a></li>\n" +
++                "\n" +
++                "          <li class=\"nav-item dropdown\">\n" +
++                "            <a class=\"nav-link dropdown-toggle nav-link px-lg-3 py-3 py-lg-4\"\n" +
++                "               data-bs-toggle=\"dropdown\" href=\"#\" role=\"button\"\n" +
++                "               aria-expanded=\"false\">Categorías</a>\n" +
++                "            <ul class=\"dropdown-menu\">\n" +
++                "              <li><a class=\"dropdown-item\" href=\"categorias/mentalidad.html\">Mentalidad</a></li>\n" +
++                "              <li><a class=\"dropdown-item\" href=\"#\">Social</a></li>\n" +
++                "              <li><a class=\"dropdown-item\" href=\"#\">Espiritual</a></li>\n" +
++                "              <li><a class=\"dropdown-item\" href=\"#\">Emocional</a></li>\n" +
++                "              <li><a class=\"dropdown-item\" href=\"#\">Físico</a></li>\n" +
++                "              <li><a class=\"dropdown-item\" href=\"#\">Finanzas</a></li>\n" +
++                "            </ul>\n" +
++                "          </li>\n" +
++                "\n" +
++                "          <li class=\"nav-item\"><a class=\"nav-link px-lg-3 py-3 py-lg-4\" href=\"" + this.rutaPrimerNivelIndex + "contact.html\">Contáctanos</a>\n" +
++                "          </li>\n" +
++                "        </ul>\n" +
++                "      </div>\n" +
++                "\n" +
++                "\n" +
++                "    </div>\n" +
++                "  </nav>\n" +
++                "  <!-- Page Header-->\n" +
++                "  <header class=\"masthead\" style=\"background-image: url('" + this.rutaPrimerNivelIndex + "dist/assets/img/Mentalidad.jpg');\n" +
++                "                                            z-index: -1\">\n" +
++                "    <div class=\"container position-relative px-4 px-lg-5\">\n" +
++                "      <div class=\"row gx-4 gx-lg-5 justify-content-center\">\n" +
++                "        <div class=\"col-md-10 col-lg-8 col-xl-7\">\n" +
++                "          <div class=\"site-heading\">\n" +
++                "            <h2>Mentalidad</h2>\n" +
++                "            <span class=\"subheading\">El desarrollo es un proceso continuo de mejora de nuestras\n" +
++                "                                    vidas y de nosotros mismos. Independientemente de la edad que tengamos,\n" +
++                "                                    siempre hay formas de mejorar nuestro crecimiento y desarrollo personal.\n" +
++                "                                    En esta entrada del blog, echaremos un vistazo a seis formas distintas de mejorar\n" +
++                "                                    nuestro desarrollo personal. Exploraremos lo que cada una de estas\n" +
++                "                                    técnicas puede hacer por nosotros y cómo podemos utilizarlas para convertirnos\n" +
++                "                                    en mejores versiones de nosotros mismos. Así que si estás buscando formas de\n" +
++                "                                    mejorar tu crecimiento personal, ¡Este blog es perfecto para ti! </span>\n" +
++                "          </div>\n" +
++                "        </div>\n" +
++                "      </div>\n" +
++                "    </div>\n" +
++                "  </header>\n",
++        }
++    },
++    mounted() {
++        this.sacarValoresHTML()
++        this.actualizarHtmlContent(); // Llama al método para actualizar el contenido
++    },
++    computed: {
++        navPage() {
++            if (this.comprobarExistenciaVariables() === true) {
++                return "  <!-- Navigation-->\n" +
++                    "  <nav class=\"navbar navbar-expand-lg navbar-light\" id=\"mainNav\">\n" +
++                    "    <div class=\"container px-4 px-lg-5\">\n" +
++                    "      <a class=\"navbar-brand\" href=\"" + this.rutaPrimerNivelIndex + "index.html\">Nuestro Desarrollo Personal</a>\n" +
++                    "      <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarResponsive\"\n" +
++                    "              aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n" +
++                    "        Menu\n" +
++                    "        <i class=\"fas fa-bars\"></i>\n" +
++                    "      </button>\n" +
++                    "\n" +
++                    "      <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n" +
++                    "        <ul class=\"navbar-nav ms-auto py-4 py-lg-0\">\n" +
++                    "          <li class=\"nav-item\"><a class=\"nav-link px-lg-3 py-3 py-lg-4\" href=\"" + this.rutaPrimerNivelIndex + "index.html\">Inicio</a></li>\n" +
++                    "          <li class=\"nav-item\"><a class=\"nav-link px-lg-3 py-3 py-lg-4\" href=\"" + this.rutaPrimerNivelIndex + "about.html\">Sobre mi</a></li>\n" +
++                    "\n" +
++                    "          <li class=\"nav-item dropdown\">\n" +
++                    "            <a class=\"nav-link dropdown-toggle nav-link px-lg-3 py-3 py-lg-4\"\n" +
++                    "               data-bs-toggle=\"dropdown\" href=\"#\" role=\"button\"\n" +
++                    "               aria-expanded=\"false\">Categorías</a>\n" +
++                    "            <ul class=\"dropdown-menu\">\n" +
++                    "              <li><a class=\"dropdown-item\" href=\"categorias/mentalidad.html\">Mentalidad</a></li>\n" +
++                    "              <li><a class=\"dropdown-item\" href=\"#\">Social</a></li>\n" +
++                    "              <li><a class=\"dropdown-item\" href=\"#\">Espiritual</a></li>\n" +
++                    "              <li><a class=\"dropdown-item\" href=\"#\">Emocional</a></li>\n" +
++                    "              <li><a class=\"dropdown-item\" href=\"#\">Físico</a></li>\n" +
++                    "              <li><a class=\"dropdown-item\" href=\"#\">Finanzas</a></li>\n" +
++                    "            </ul>\n" +
++                    "          </li>\n" +
++                    "\n" +
++                    "          <li class=\"nav-item\"><a class=\"nav-link px-lg-3 py-3 py-lg-4\" href=\"" + this.rutaPrimerNivelIndex + "contact.html\">Contáctanos</a>\n" +
++                    "          </li>\n" +
++                    "        </ul>\n" +
++                    "      </div>\n" +
++                    "\n" +
++                    "\n" +
++                    "    </div>\n" +
++                    "  </nav>\n" +
++                    "  <!-- Page Header-->\n" +
++                    "  <header class=\"masthead\" style=\"background-image: url('" + this.rutaPrimerNivelIndex + "dist/assets/img/Mentalidad.jpg');\n" +
++                    "                                            z-index: -1\">\n" +
++                    "    <div class=\"container position-relative px-4 px-lg-5\">\n" +
++                    "      <div class=\"row gx-4 gx-lg-5 justify-content-center\">\n" +
++                    "        <div class=\"col-md-10 col-lg-8 col-xl-7\">\n" +
++                    "          <div class=\"site-heading\">\n" +
++                    "            <h2>Mentalidad</h2>\n" +
++                    "            <span class=\"subheading\">El desarrollo es un proceso continuo de mejora de nuestras\n" +
++                    "                                    vidas y de nosotros mismos. Independientemente de la edad que tengamos,\n" +
++                    "                                    siempre hay formas de mejorar nuestro crecimiento y desarrollo personal.\n" +
++                    "                                    En esta entrada del blog, echaremos un vistazo a seis formas distintas de mejorar\n" +
++                    "                                    nuestro desarrollo personal. Exploraremos lo que cada una de estas\n" +
++                    "                                    técnicas puede hacer por nosotros y cómo podemos utilizarlas para convertirnos\n" +
++                    "                                    en mejores versiones de nosotros mismos. Así que si estás buscando formas de\n" +
++                    "                                    mejorar tu crecimiento personal, ¡Este blog es perfecto para ti! </span>\n" +
++                    "          </div>\n" +
++                    "        </div>\n" +
++                    "      </div>\n" +
++                    "    </div>\n" +
++                    "  </header>\n"
++            }
++        },
++        footerPage() {
++            if (this.comprobarExistenciaVariables() === true) {
++
++                return "<footer class=\"border-top\">\n" +
++                    "  <div class=\"container px-4 px-lg-5\">\n" +
++                    "    <div class=\"row gx-4 gx-lg-5 justify-content-center\">\n" +
++                    "      <div class=\"col-md-10 col-lg-8 col-xl-7\">\n" +
++                    "        <ul class=\"list-inline text-center\">\n" +
++                    "          <li class=\"list-inline-item\">\n" +
++                    "            <a href=\"#!\">\n" +
++                    "              <span class=\"fa-stack fa-lg\">\n" +
++                    "                <i class=\"fas fa-circle fa-stack-2x\"></i>\n" +
++                    "                <i class=\"fab fa-twitter fa-stack-1x fa-inverse\"></i>\n" +
++                    "              </span>\n" +
++                    "            </a>\n" +
++                    "          </li>\n" +
++                    "          <li class=\"list-inline-item\">\n" +
++                    "            <a href=\"#!\">\n" +
++                    "              <span class=\"fa-stack fa-lg\">\n" +
++                    "                <i class=\"fas fa-circle fa-stack-2x\"></i>\n" +
++                    "                <i class=\"fab fa-facebook-f fa-stack-1x fa-inverse\"></i>\n" +
++                    "              </span>\n" +
++                    "            </a>\n" +
++                    "          </li>\n" +
++                    "          <li class=\"list-inline-item\">\n" +
++                    "            <a href=\"#!\">\n" +
++                    "              <span class=\"fa-stack fa-lg\">\n" +
++                    "                <i class=\"fas fa-circle fa-stack-2x\"></i>\n" +
++                    "                <i class=\"fab fa-github fa-stack-1x fa-inverse\"></i>\n" +
++                    "              </span>\n" +
++                    "            </a>\n" +
++                    "          </li>\n" +
++                    "        </ul>\n" +
++                    "        <div class=\"small text-center text-muted fst-italic\">2023 Copyright. All Rights Reserved.\n" +
++                    "        </div>\n" +
++                    "        <br>\n" +
++                    "        <div class=\"small text-center text-muted fst-italic\">\n" +
++                    "          <a href=\"" + this.rutaPrimerNivelIndex + "dist/politicasPrivacidad/politica-privacidad.html\">Política de Privacidad</a>\n" +
++                    "          -\n" +
++                    "          <a href=\"" + this.rutaPrimerNivelIndex + "dist/politicasPrivacidad/aviso-legal.html\">Aviso Legal</a>\n" +
++                    "          -\n" +
++                    "          <a href=\"" + this.rutaPrimerNivelIndex + "dist/politicasPrivacidad/aviso-cookies.html\">Política de Cookies</a>\n" +
++                    "        </div>\n" +
++                    "      </div>\n" +
++                    "    </div>\n" +
++                    "  </div>\n" +
++                    "</footer>";
++            }
++        },
++
++    },
++    methods: {
++        actualizarHtmlContent() {
++            this.$forceUpdate(); // Forza la actualización del componente
++        },
++        comprobarExistenciaVariables() {
++            if ((this.rutaPrimerNivelIndex !== null &&
++                this.rutaCategorias !== null &&
++                this.rutaImagenesNav !== null &&
++                this.redireccionMismaPagina !== null &&
++                this.titulo !== null &&
++                this.entrada !== null) === true) {
++                return true
++            } else {
++                return false
++            }
++        },
++        sacarValoresHTML() {
++            /*Variables Nav*/
++            const rutaPrimerNivelIndex = this.$refs.rutaPrimerNivelIndex.value;
++            this.rutaPrimerNivelIndex = rutaPrimerNivelIndex;
++
++            const rutaCategorias = this.$refs.rutaCategorias.value;
++            this.rutaCategorias = rutaCategorias;
++
++            const rutaImagenesNav = this.$refs.rutaImagenesNav.value;
++            this.rutaImagenesNav = rutaImagenesNav;
++
++            const redireccionMismaPagina = this.$refs.redireccionMismaPagina.value;
++            this.redireccionMismaPagina = redireccionMismaPagina;
++
++            const titulo = this.$refs.titulo.value;
++            this.titulo = titulo;
++
++            const entrada = this.$refs.entrada.value;
++            this.entrada = entrada;
++            /*Variables Nav*/
++
++        },
++    },
++})
+\ No newline at end of file
+Index: CodigoUtil/NavBar.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/CodigoUtil/NavBar.html b/CodigoUtil/NavBar.html
+new file mode 100644
+--- /dev/null	(date 1677508962424)
++++ b/CodigoUtil/NavBar.html	(date 1677508962424)
+@@ -0,0 +1,58 @@
++<!-- Navigation-->
++<nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
++    <div class="container px-4 px-lg-5">
++        <a class="navbar-brand" href="../index.html">Nuestro Desarrollo Personal</a>
++        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
++                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
++            Menu
++            <i class="fas fa-bars"></i>
++        </button>
++
++        <div class="collapse navbar-collapse" id="navbarResponsive">
++            <ul class="navbar-nav ms-auto py-4 py-lg-0">
++                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../index.html">Inicio</a></li>
++                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../about.html">Sobre mi</a></li>
++
++                <li class="nav-item dropdown">
++                    <a class="nav-link dropdown-toggle nav-link px-lg-3 py-3 py-lg-4"
++                       data-bs-toggle="dropdown" href="#" role="button"
++                       aria-expanded="false">Categorías</a>
++                    <ul class="dropdown-menu">
++                        <li><a class="dropdown-item" href="categorias/mentalidad.html">Mentalidad</a></li>
++                        <li><a class="dropdown-item" href="#">Social</a></li>
++                        <li><a class="dropdown-item" href="#">Espiritual</a></li>
++                        <li><a class="dropdown-item" href="#">Emocional</a></li>
++                        <li><a class="dropdown-item" href="#">Físico</a></li>
++                        <li><a class="dropdown-item" href="#">Finanzas</a></li>
++                    </ul>
++                </li>
++
++                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../contact.html">Contáctanos</a>
++                </li>
++            </ul>
++        </div>
++
++
++    </div>
++</nav>
++<!-- Page Header-->
++<header class="masthead" style="background-image: url('../dist/assets/img/Mentalidad.jpg');
++                                            z-index: -1">
++    <div class="container position-relative px-4 px-lg-5">
++        <div class="row gx-4 gx-lg-5 justify-content-center">
++            <div class="col-md-10 col-lg-8 col-xl-7">
++                <div class="site-heading">
++                    <h2>Mentalidad</h2>
++                    <span class="subheading">El desarrollo es un proceso continuo de mejora de nuestras
++                                    vidas y de nosotros mismos. Independientemente de la edad que tengamos,
++                                    siempre hay formas de mejorar nuestro crecimiento y desarrollo personal.
++                                    En esta entrada del blog, echaremos un vistazo a seis formas distintas de mejorar
++                                    nuestro desarrollo personal. Exploraremos lo que cada una de estas
++                                    técnicas puede hacer por nosotros y cómo podemos utilizarlas para convertirnos
++                                    en mejores versiones de nosotros mismos. Así que si estás buscando formas de
++                                    mejorar tu crecimiento personal, ¡Este blog es perfecto para ti! </span>
++                </div>
++            </div>
++        </div>
++    </div>
++</header>
