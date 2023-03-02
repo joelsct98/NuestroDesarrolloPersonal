@@ -1,241 +1,467 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <meta name="description" content=""/>
-    <meta name="author" content=""/>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="description" content=""/>
+  <meta name="author" content=""/>
 
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start':
-                new Date().getTime(), event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+      'gtm.start':
+              new Date().getTime(), event: 'gtm.js'
+    });
+    var f = d.getElementsByTagName(s)[0],
             j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
+    j.async = true;
+    j.src =
             'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-PMWF92R');</script>
-    <!-- End Google Tag Manager -->
+    f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-PMWF92R');</script>
+  <!-- End Google Tag Manager -->
 
-    <title>Clean Blog - Start Bootstrap Theme</title>
-    <link rel="icon" type="image/x-icon" href="dist/assets/favicon.ico"/>
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
-          type="text/css"/>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
-          rel="stylesheet" type="text/css"/>
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="dist/css/styles.css" rel="stylesheet"/>
-    <link href="dist/css/estilos.css" rel="stylesheet"/>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS\index.css"/>
+  <title>Nuestro Desarrollo Personal</title>
+  <link rel="icon" type="image/x-icon" href="dist/assets/favicon.ico"/>
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link rel="icon" type="image/png" href="img/logo.png"/>
+  <!--
+  <link rel="stylesheet" id="nouveau-stylesheet-css" href="https://www.virtualsw.com/wp-content/themes/nouveau/css/stylesheet.min.css?ver=5.3.6" type="text/css" media="all">
+  -->
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="dist/css/estilos.css" rel="stylesheet"/>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EMFE9ECW0Q"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EMFE9ECW0Q"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-        gtag('config', 'G-EMFE9ECW0Q');
-    </script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2374407174542373"
-            crossorigin="anonymous"></script>
-    <!-- Core theme CSS (includes Bootstrap)-->
+    gtag('js', new Date());
+
+    gtag('config', 'G-EMFE9ECW0Q');
+  </script>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2374407174542373"
+          crossorigin="anonymous"></script>
+  <!-- Core theme CSS (includes Bootstrap)-->
 
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
 <noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMWF92R"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMWF92R"
+          height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
+<div id="container">
+  <!--header-->
+  <div id="app">
 
-<main>
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-        <div class="container px-4 px-lg-5">
-            <a class="navbar-brand" href="index.html">Nuestro Desarrollo Personal</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i class="fas fa-bars"></i>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">Sobre mi</a></li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle nav-link px-lg-3 py-3 py-lg-4"
-                           data-bs-toggle="dropdown" href="#" role="button"
-                           aria-expanded="false">Categorías</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="categorias/mentalidad.html">Mentalidad</a></li>
-                            <li><a class="dropdown-item" href="#">Social</a></li>
-                            <li><a class="dropdown-item" href="#">Espiritual</a></li>
-                            <li><a class="dropdown-item" href="#">Emocional</a></li>
-                            <li><a class="dropdown-item" href="#">Físico</a></li>
-                            <li><a class="dropdown-item" href="#">Finanzas</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contáctanos</a>
-                    </li>
-                </ul>
-            </div>
-
-
-        </div>
-    </nav>
-    <!-- Page Header-->
-    <header class="masthead" style="background-image: url('dist/assets/img/portada.jpg');
-                                            z-index: -1">
-        <div class="container position-relative px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-md-10 col-lg-8 col-xl-7">
-                    <div class="site-heading">
-                        <h2>Nuestro Desarrollo Personal</h2>
-                        <span class="subheading">El desarrollo es un proceso continuo de mejora de nuestras
+    <input v-show="mostrarInput" ref="rutaPrimerNivelIndex" type="text" value="../">
+    <input v-show="mostrarInput" ref="rutaCategorias" type="text" value="#">
+    <input v-show="mostrarInput" ref="rutaImagenesNav" type="text" value="../dist/assets/img/Mentalidad.jpg">
+    <input v-show="mostrarInput" ref="redireccionMismaPagina" type="text" value="#">
+    <input v-show="mostrarInput" ref="titulo" type="text" value="Mentalidad">
+    <input v-show="mostrarInput" ref="entrada" type="text" value="El desarrollo es un proceso continuo de mejora de nuestras
                                     vidas y de nosotros mismos. Independientemente de la edad que tengamos,
                                     siempre hay formas de mejorar nuestro crecimiento y desarrollo personal.
                                     En esta entrada del blog, echaremos un vistazo a seis formas distintas de mejorar
                                     nuestro desarrollo personal. Exploraremos lo que cada una de estas
                                     técnicas puede hacer por nosotros y cómo podemos utilizarlas para convertirnos
                                     en mejores versiones de nosotros mismos. Así que si estás buscando formas de
-                                    mejorar tu crecimiento personal, ¡Este blog es perfecto para ti! </span>
-                    </div>
-                </div>
-            </div>
+                                    mejorar tu crecimiento personal, ¡Este blog es perfecto para ti!">
+
+    <div v-html="navbarIndex"></div>
+  </div>
+  <!--/header-->
+
+  <!--Main-->
+  <main id="main">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img style="height: 70vh;opacity: 0.8" src="dist/assets/img/ImagenPortada.png" class="d-block w-100"
+               alt="berserck">
+          <div class="carousel-caption d-md-block">
+
+            <span style="font-size: 35px">Nuestro Desarrollo Personal</span>
+            <p class="d-none d-col-sm-none d-md-block col-lg-block">
+              El desarrollo es un proceso continuo de mejora de nuestras vidas y de nosotros mismos. Independientemente
+              de la edad que tengamos, siempre hay formas de mejorar nuestro crecimiento y desarrollo personal. En esta
+              entrada del blog, echaremos un vistazo a <b style="color: white">seis formas distintas</b> de mejorar
+              nuestro desarrollo personal. Exploraremos lo que cada una de estas técnicas puede hacer por nosotros y
+              cómo podemos utilizarlas para convertirnos en mejores versiones de nosotros mismos. Así que si estás
+              buscando formas de mejorar tu crecimiento personal, <b style="color: white">este blog es perfecto para
+              ti</b>!</div>
         </div>
-    </header>
-
-    <br>
-    <br>
-    <!-- Main Content-->
-    <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-
-            <div class="row text-center">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="categorias/mentalidad.html">
-                        <img src="dist/assets/img/Mentalidad.jpg" alt="..." class="img-thumbnail">
-                        Mentalidad
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="">
-                        <img src="dist/assets/img/vida-social.webp" alt="..." class="img-thumbnail">
-                        Social
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="">
-                        <img src="dist/assets/img/espiritual.jpg" alt="..." class="img-thumbnail">
-                        Espiritual
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="">
-                        <img src="dist/assets/img/emocional.jpg" alt="..." class="img-thumbnail">
-                        Emocional
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="">
-                        <img src="dist/assets/img/fisico.jpg" alt="..." class="img-thumbnail">
-                        Físico
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="">
-                        <img src="dist/assets/img/finanzas.jpg" alt="..." class="img-thumbnail">
-                        Finanzas
-                    </a>
-                </div>
+        <div class="carousel-item">
+          <a id="link_tutoriales" href="paginas/blog.html?mostrarTutoriales=true">
+            <img style="height: 70vh;" src="img/Blog/tutoriales/YouTube-Vanced-New.png" class="d-block w-100"
+                 alt="berserck2">
+            <div class="carousel-caption d-md-block">
+              <h5 id="resaltar">Mentalidad</h5>
+              <p style="font-size: 20px;">Como tener Youtube Gratis en Android</p>
             </div>
-
-            <br>
+          </a>
         </div>
+        <div class="carousel-item">
+          <a href="paginas/blog.html">
+            <img style="height: 70vh;" src="img\inteligencia-artificial4.png" class="d-block w-100" alt="berserck3">
+            <div class="overlay">
+              <div class="carousel-caption d-md-block">
+                <h5 id="resaltar">Blog</h5>
+                <p style="font-size: 20px;">GPT-3</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
+  </main>
+  <!--/Main-->
+
+  <!--proyectos-->
+  <section id="Proyectos" class="mb-4">
+    <div id="titulo" class="container-fluid text-center">
+      <h1 id="resaltar">Categorías</h1>
+    </div>
+    <div class="container-fluid">
+
+      <div class="row text-center">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 text-center">
+          <a href="categorias/mentalidad.html">
+            <figure class="figure">
+              <img src="dist/assets/img/Mentalidad.jpg" class="rounded float-star" alt="...">
+              <figcaption class="figure-caption" style="color: white">Mentalidad</figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 text-center">
+          <a href="categorias/mentalidad.html">
+            <figure class="figure">
+              <img src="dist/assets/img/vida-social.webp" class="rounded float-star" alt="...">
+              <figcaption class="figure-caption" style="color: white">Social</figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 text-center">
+          <a href="categorias/mentalidad.html">
+            <figure class="figure">
+              <img src="dist/assets/img/espiritual.jpg" class="rounded float-star" alt="...">
+              <figcaption class="figure-caption" style="color: white">Espiritual</figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 text-center">
+          <a href="categorias/mentalidad.html">
+            <figure class="figure">
+              <img src="dist/assets/img/emocional.jpg" class="rounded float-star" alt="...">
+              <figcaption class="figure-caption" style="color: white">Emocional</figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 text-center">
+          <a href="categorias/mentalidad.html">
+            <figure class="figure">
+              <img src="dist/assets/img/fisico.jpg" class="rounded float-star" alt="...">
+              <figcaption class="figure-caption" style="color: white">Físico</figcaption>
+            </figure>
+          </a>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-6 col-lg-3 text-center">
+          <a href="categorias/mentalidad.html">
+            <figure class="figure">
+              <img src="dist/assets/img/finanzas.jpg" class="rounded float-star" alt="...">
+              <figcaption class="figure-caption" style="color: white">Finanzas</figcaption>
+            </figure>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <main id="servicios">
+    <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="img/servicio1.jpg" alt="Hawaii 1">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/servicio2.jfif" alt="Hawaii 2">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="img/servicio3.jpg" alt="Hawaii 3">
+        </div>
+        <div class="overlay">
+          <div class="container">
+            <div class="row align-items-center text-center text-align-center">
+              <div class="col-md-6 offset-md-6 text-md-right">
+                <h1>Sobre Mi</h1>
+
+                <p class="d-none d-col-sm-none d-md-block col-lg-block">
+                  Soy un <span id="resaltar">mentor apasionado y comprometido</span> en ayudarte a alcanzar tus
+                  objetivos.
+                  Con mi experiencia y conocimientos, te guiaré en tu camino hacia el éxito y la confianza en ti mismo.
+                  <span id="resaltar">Mi enfoque personalizado</span> se adapta a tus necesidades específicas para que
+                  puedas alcanzar tus metas de
+                  manera efectiva y eficiente. Si estás listo para transformar tu vida y alcanzar tus sueños, contáctame
+                  hoy mismo y comencemos a trabajar juntos. ¡Juntos, podemos hacer cualquier cosa!<br>
+
+                  <!--
+                  <div class="d-none d-col-sm-none d-md-block col-lg-block">
+                    <div class="row">
+                      <div class="col-8">
+                        Soy un <strong id="resaltar">Desarrollador web y Android</strong> (ambas en JAVA)
+                        con experiencia en el desarrollo de software.
+                        Busco colaborar en una posición como <strong id="resaltar">desarrollador junior</strong>,
+                        siendo mi trabajo efectivo, poder crecer en su empresa y ser
+                        parte imprescindible en los proyectos. En un futuro me gustaría
+                        especializarme tanto en <strong id="resaltar">backend</strong> como en <strong>frontend</strong>
+                        y poder ser <strong id="resaltar">líder de un proyecto</strong> y también
+                        tengo especial interés en el <strong id="resaltar">machine learning</strong><br>
+
+                      </div>
+                      <div class="col-4">
+                        <span class="badge badge-pill badge-success">Java</span>
+                        <span class="badge badge-pill badge-success">Spring</span>
+                        <span class="badge badge-pill badge-success">Android</span>
+                        <br>
+                        <span class="badge badge-pill badge-primary">HTML5</span>
+                        <span class="badge badge-pill badge-primary">CSS</span>
+                        <span class="badge badge-pill badge-primary">JavaScript</span>
+                        <span class="badge badge-pill badge-primary">Bootstrap 4</span>
+                        <br>
+                        <span class="badge badge-pill badge-warning">MySQL</span>
+                        <span class="badge badge-pill badge-warning">PostgreSQL</span>
+                        <span class="badge badge-pill badge-warning">PL/SQL</span>
+                        <br>
+                        <span class="badge badge-pill badge-info">PHP</span>
+                        <span class="badge badge-pill badge-info">.NET</span>
+                        <br>
+                        <span class="badge badge-pill badge-danger">Postman</span>
+                        <span class="badge badge-pill badge-danger">IntelliJ IDEA</span>
+                        <span class="badge badge-pill badge-danger">Visual Studio Code</span>
+                        <span class="badge badge-pill badge-danger">Visual Studio</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-12">
+                      <a href="#Proyectos">
+                        <button type="button" class="btn btn-success">Descubrir Proyectos</button>
+                      </a>
+                      <a href="paginas/blog.html">
+                        <button type="button" class="btn btn-secondary">Intereses</button>
+                      </a>
+                    </div>
+                  </div>
+                -->
+
+                </p>
+                <a href="#Proyectos">
+                  <button type="button" class="btn btn-success">Descubrir Proyectos</button>
+                </a>
+                <a href="paginas/blog.html">
+                  <button type="button" class="btn btn-secondary">Intereses</button>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section id="contacto">
+
+    <div id="titulo" class="container-fluid text-center">
+      <h1 style="color: orange;">Contacto</h1>
+    </div>
+    <div class="container">
+      <div class="container-fluid mb-4">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h5><strong>Calle:</strong> C/ Soledad Cazorla, 28044 Madrid</h5>
+          </div>
+          <div class="col-12 col-lg-6">
+            <h5><strong>GitHub:</strong> <a href="https://github.com/joelsct98">GITHUB</a></h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h5><strong>Email:</strong> joelsct98@gmail.com</h5>
+          </div>
+          <div class="col-12 col-lg-6">
+            <h5><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/joel-chavez-b36b931b1/">LinkedIn</a>
+            </h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h5><strong>Telefono:</strong> +34 685217194</h5>
+          </div>
+        </div>
+      </div>
 
 
-    <br>
-    <br>
-    <br>
-    <br>
+      <div class="container-fluid mb-4">
+        <div class="row mb-2">
+          <div class="col">
+            <input type="text" id="nombre_contacto" name="nombre" class="form-control" placeholder="Nombre" required>
+          </div>
+          <div class="col">
+            <input type="text" id="apellido_contacto" name="apellido" class="form-control" placeholder="Apellido"
+                   required>
+          </div>
+        </div>
+
+        <div class="form-group row mb-2">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Email (Requerido)</label>
+          <div class="col-sm-10">
+            <input type="email" id="email_contacto" name="email" class="form-control" id="inputEmail3" required>
+          </div>
+        </div>
+
+        <div class="form-group row mb-2">
+          <label for="inputEmail4" class="col-sm-2 col-form-label">Asunto</label>
+          <div class="col-sm-10">
+            <input type="text" id="asunto_contacto" name="email" class="form-control" id="inputEmail4">
+          </div>
+        </div>
+
+        <div class="form-group row mb-2">
+          <label for="phone" class="col-sm-2 col-form-label">Telefono</label>
+          <div class="col-sm-10">
+            <input type="text" id="telefono_contacto" name="phone" class="form-control" id="phone">
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="validationTextarea">Mensaje (Requerido)</label>
+          <textarea class="form-control" id="mensaje_contacto" name="texto" id="validationTextarea"
+                    placeholder="Required example textarea" required></textarea>
+        </div>
+
+        <div class="form-group row">
+          <div class="col-sm-10">
+            <button type="submit" class="btn btn-success" onclick="Enviar_correo()">Enviar</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!--/proyecto-->
+
+  <!--footer-->
+  <div id="footer">
+    <div v-html="footerIndex"></div>
     <!-- Footer-->
-    <footer class="border-top">
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-md-10 col-lg-8 col-xl-7">
-                    <ul class="list-inline text-center">
-                        <li class="list-inline-item">
-                            <a href="#!">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fas fa-circle fa-stack-2x"></i>
-                                            <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                                        </span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#!">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fas fa-circle fa-stack-2x"></i>
-                                            <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                        </span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#!">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fas fa-circle fa-stack-2x"></i>
-                                            <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                                        </span>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="small text-center text-muted fst-italic">2023 Copyright. All Rights Reserved.
-                    </div>
-                    <br>
-                    <div class="small text-center text-muted fst-italic">
-                        <a href="dist/politicasPrivacidad/politica-privacidad.html">Política de Privacidad</a>
-                        -
-                        <a href="dist/politicasPrivacidad/aviso-legal.html">Aviso Legal</a>
-                        -
-                        <a href="dist/politicasPrivacidad/aviso-cookies.html">Política de Cookies</a>
-                    </div>
-                </div>
+  </div>
 
-            </div>
+  <!--/footer-->
+
+  <!--Modal-->
+  <div class="modal fade" id="modelSus" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Quieres Recibir Notificaciones</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
-    </footer>
+        <div class="modal-body">
+          <form>
+            <div class="form-row">
+              <div class="form-group col">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                  </div>
+                  <input type="email" id="emailId" class="form-control" placeholder="Escribe tu Email"
+                         aria-label="Username" aria-describedby="basic-addon1">
 
-    <!-- No mirar apartir de aqui-->
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="dist/js/scripts.js"></script>
-
-    <div class="aviso-cookies" id="aviso-cookies">
-        <img class="galleta" src="dist/assets/img/cookie.svg" alt="Galleta">
-        <h3 class="titulo">Cookies</h3>
-        <p class="parrafo">Utilizamos cookies propias y de terceros para mejorar nuestros servicios.</p>
-        <button class="boton" id="btn-aceptar-cookies">De acuerdo</button>
-        <a class="enlace" href="dist/politicasPrivacidad/aviso-cookies.html">Aviso de Cookies</a>
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class="alert alert-success" role="alert">
+            Pronto te llegara un correo!
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-primary" onclick="Suscribirse()">Suscribirse</button>
+        </div>
+      </div>
     </div>
-    <div class="fondo-aviso-cookies" id="fondo-aviso-cookies"></div>
+  </div>
+  <!--/Modal-->
 
-    <script src="dist/js/aviso-cookies.js"></script>
-    <!-- Termina No mirar apartir de aqui-->
-</main>
+
+  <script src="JS/generales.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+          crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+          crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="Vue/template/navbar.js"></script>
+  <script src="Vue/template/footer.js"></script>
+
+
+  <!-- No mirar apartir de aqui-->
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="dist/js/scripts.js"></script>
+
+  <div class="aviso-cookies" id="aviso-cookies">
+    <img class="galleta" src="dist/assets/img/cookie.svg" alt="Galleta">
+    <h3 class="titulo">Cookies</h3>
+    <p class="parrafo">Utilizamos cookies propias y de terceros para mejorar nuestros servicios.</p>
+    <button class="boton" id="btn-aceptar-cookies">De acuerdo</button>
+    <a class="enlace" href="dist/politicasPrivacidad/aviso-cookies.html">Aviso de Cookies</a>
+  </div>
+  <div class="fondo-aviso-cookies" id="fondo-aviso-cookies"></div>
+
+  <script src="dist/js/aviso-cookies.js"></script>
+  <!-- Termina No mirar apartir de aqui-->
+
+</div>
 </body>
 </html>
