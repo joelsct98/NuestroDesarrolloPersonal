@@ -2,6 +2,10 @@ new Vue({
     el: "#footer",
     data: {
         footerBlog: `
+<br>
+<br>
+<br>
+<br>
   <footer id="footer" >
     <div class="container">
       <div class="row ">
@@ -9,6 +13,13 @@ new Vue({
           <div class="row">
             <div class="col-12 col-md-12 col-lg-12">
               <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-1"></div>
+                        <div class="col-10"><hr style="border-color: orange;"><br></div>
+                        <div class="col-1"></div>
+                    </div>
+                </div>
                 <div class="col-2 col-md-3 col-lg-4"></div>
                 <div class="col-8 col-md-6 col-lg-4">
                   <div class="row">
@@ -65,6 +76,10 @@ new Vue({
   </footer>
         `,
         footerP_blog: `
+<br>
+<br>
+<br>
+<br>
   <footer id="footer" >
     <div class="container">
       <div class="row ">
@@ -72,6 +87,13 @@ new Vue({
           <div class="row">
             <div class="col-12 col-md-12 col-lg-12">
               <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-1"></div>
+                        <div class="col-10"><hr style="border-color: orange;"><br></div>
+                        <div class="col-1"></div>
+                    </div>
+                </div>
                 <div class="col-2 col-md-3 col-lg-4"></div>
                 <div class="col-8 col-md-6 col-lg-4">
                   <div class="row">
@@ -128,6 +150,9 @@ new Vue({
   </footer>
         `,
         footerIndex: `
+<br>
+<br>
+<br>
   <footer id="footer" >
     <div class="container">
       <div class="row ">
@@ -135,6 +160,13 @@ new Vue({
           <div class="row">
             <div class="col-12 col-md-12 col-lg-12">
               <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-1"></div>
+                        <div class="col-10"><hr style="border-color: orange;"><br></div>
+                        <div class="col-1"></div>
+                    </div>
+                </div>
                 <div class="col-2 col-md-3 col-lg-4"></div>
                 <div class="col-8 col-md-6 col-lg-4">
                   <div class="row">
