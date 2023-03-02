@@ -373,12 +373,10 @@ input[id^='identityMen'] {
 
 /*-------------------------footer-----------------------*/
 #footer {
-  background: black;
   color: white;
 }
 
 #footer:hover {
-  background: black;
   color: white;
 }
 
