@@ -243,6 +243,14 @@ figcaption {
   overflow: hidden;
 }
 
+#contenido-texto h1 {
+  color: #4ee707;
+}
+
+#contenido-texto h2 {
+  color: #4ee707;
+}
+
 /*tabs en blogs*/
 .nav-tabs a {
   color: orange;
@@ -396,4 +404,18 @@ input[id^='identityMen'] {
   background-color: black;
   color: white;
 }
+
+/*-------------------------figure-----------------------*/
+
+.figure .categorias {
+  width: 100em;
+  height: 10em
+}
+
+/*-------------------------HR-----------------------*/
+
+hr {
+  border-color: orange;
+}
+
 

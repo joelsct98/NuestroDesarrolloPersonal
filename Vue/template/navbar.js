@@ -44,7 +44,7 @@ new Vue({
                   <a class="nav-link" href="../paginas/sobremi.html">Sobre Mi <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-platzi" href="../index.html#suscribete" data-toggle="modal" data-target="#modelSus"><del>Suscríbete</del> <span class="sr-only">(current)</span></a>
+                  <a class="nav-link text-platzi disabled" href="../index.html#suscribete" data-toggle="modal" data-target="#modelSus"><del>Suscríbete</del> <span class="sr-only">(current)</span></a>
                 </li>
               </ul>
             </div>
@@ -90,7 +90,7 @@ new Vue({
                   <a class="nav-link" href="../../../paginas/sobremi.html">Sobre Mi <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-platzi" href="../../../index.html#suscribete" data-toggle="modal" data-target="#modelSus"><del>Suscríbete</del> <span class="sr-only">(current)</span></a>
+                  <a class="nav-link text-platzi disabled" href="../../../index.html#suscribete" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom" data-toggle="modal" data-target="#modelSus"><del>Suscríbete</del> <span class="sr-only">(current)</span></a>
                 </li>
               </ul>
             </div>
@@ -126,12 +126,7 @@ new Vue({
                     <a class="dropdown-item" href="categorias/espiritual.html">Espiritual</a>
                     <a class="dropdown-item" href="categorias/emocional.html">Emocional</a>
                     <a class="dropdown-item" href="categorias/fisico.html">Físico</a>
-                    <a class="dropdown-item dropdown-toggle" href="categorias/finanzas.html">Finanzas</a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="categorias/emocional.html">Emocional</a>
-                      <a class="dropdown-item" href="categorias/fisico.html">Físico</a>
-                      <a class="dropdown-item" href="categorias/finanzas.html">Finanzas</a>
-                    </div>
+                    <a class="dropdown-item" href="categorias/finanzas.html">Finanzas</a>
                   </div>
                 </li>
                 <li class="nav-item">
@@ -141,7 +136,7 @@ new Vue({
                   <a class="nav-link" href="paginas/sobremi.html">Sobre Mi <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-platzi" href="#suscribete" data-toggle="modal" data-target="#modelSus"><del>Suscríbete</del> <span class="sr-only">(current)</span></a>
+                  <a class="nav-link text-platzi disabled" href="#suscribete" data-toggle="modal" data-target="#modelSus"><del>Suscríbete</del> <span class="sr-only">(current)</span></a>
                 </li>
               </ul>
             </div>
@@ -197,7 +192,7 @@ new Vue({
                   <a class="nav-link" href="paginas/sobremi.html">Sobre Mi <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-platzi" href="#suscribete" data-toggle="modal" data-target="#modelSus">Suscríbete <span class="sr-only">(current)</span></a>
+                  <a class="nav-link text-platzi disabled" href="#suscribete" data-toggle="modal" data-target="#modelSus">Suscríbete <span class="sr-only">(current)</span></a>
                 </li>
               </ul>
             </div>

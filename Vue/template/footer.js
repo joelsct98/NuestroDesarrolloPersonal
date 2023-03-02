@@ -16,7 +16,7 @@ new Vue({
                 <div class="col-12">
                     <div class="row">
                         <div class="col-1"></div>
-                        <div class="col-10"><hr style="border-color: orange;"><br></div>
+                        <div class="col-10"><hr><br></div>
                         <div class="col-1"></div>
                     </div>
                 </div>
@@ -90,7 +90,7 @@ new Vue({
                 <div class="col-12">
                     <div class="row">
                         <div class="col-1"></div>
-                        <div class="col-10"><hr style="border-color: orange;"><br></div>
+                        <div class="col-10"><hr><br></div>
                         <div class="col-1"></div>
                     </div>
                 </div>
@@ -163,7 +163,7 @@ new Vue({
                 <div class="col-12">
                     <div class="row">
                         <div class="col-1"></div>
-                        <div class="col-10"><hr style="border-color: orange;"><br></div>
+                        <div class="col-10"><hr><br></div>
                         <div class="col-1"></div>
                     </div>
                 </div>
