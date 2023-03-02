@@ -13,8 +13,7 @@ new Vue({
       <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid ">
             <a class="navbar-brand" href="../index.html">
-              <img src="../img/logo.png" alt="logo-bayiba">
-              <strong>Nuestro Desarrollo Personal</strong>
+              <img src="../dist/assets/img/logo-bKthKv-Qu-transformed (1).png" alt="logo-bayiba" style="width: 10em; height: 5em">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -60,8 +59,7 @@ new Vue({
       <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid ">
             <a class="navbar-brand" href="../../../index.html">
-              <img src="../../../img/logo.png" alt="logo-bayiba">
-              <strong>Nuestro Desarrollo Personal</strong>
+                <img src="../../assets/img/logo-bKthKv-Qu-transformed (1).png" alt="logo-bayiba" style="width: 10em; height: 5em">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -107,8 +105,7 @@ new Vue({
       <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid ">
             <a class="navbar-brand" href="index.html">
-              <img src="img/logo.png" alt="logo-bayiba">
-              <strong>Nuestro Desarrollo Personal</strong>
+              <img src="dist/assets/img/logo-bKthKv-Qu-transformed (1).png" alt="logo-bayiba" style="width: 10em; height: 5em">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -129,7 +126,12 @@ new Vue({
                     <a class="dropdown-item" href="categorias/espiritual.html">Espiritual</a>
                     <a class="dropdown-item" href="categorias/emocional.html">Emocional</a>
                     <a class="dropdown-item" href="categorias/fisico.html">Físico</a>
-                    <a class="dropdown-item" href="categorias/finanzas.html">Finanzas</a>
+                    <a class="dropdown-item dropdown-toggle" href="categorias/finanzas.html">Finanzas</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="categorias/emocional.html">Emocional</a>
+                      <a class="dropdown-item" href="categorias/fisico.html">Físico</a>
+                      <a class="dropdown-item" href="categorias/finanzas.html">Finanzas</a>
+                    </div>
                   </div>
                 </li>
                 <li class="nav-item">
@@ -161,7 +163,7 @@ new Vue({
         <div class="container-fluid ">
             <a class="navbar-brand" href="index.html">
               <img src="img/logo.png" alt="logo-bayiba">
-              <strong>Nuestro Desarrollo Personal</stron
+              <strong>NTP</stron
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
