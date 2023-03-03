@@ -31,7 +31,7 @@ new Vue({
                     "      <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n" +
                     "        <ul class=\"navbar-nav ms-auto py-4 py-lg-0\">\n" +
                     "          <li class=\"nav-item\"><a class=\"nav-link px-lg-3 py-3 py-lg-4\" href=\"" + this.rutaPrimerNivelIndex + "index.html\">Inicio</a></li>\n" +
-                    "          <li class=\"nav-item\"><a class=\"nav-link px-lg-3 py-3 py-lg-4\" href=\"" + this.rutaPrimerNivelIndex + "about.html\">Sobre mi</a></li>\n" +
+                    "          <li class=\"nav-item\"><a class=\"nav-link px-lg-3 py-3 py-lg-4\" href=\"" + this.rutaPrimerNivelIndex + "sobremi.html\">Sobre mi</a></li>\n" +
                     "\n" +
                     "          <li class=\"nav-item dropdown\">\n" +
                     "            <a class=\"nav-link dropdown-toggle nav-link px-lg-3 py-3 py-lg-4\"\n" +
