@@ -41,7 +41,7 @@ new Vue({
                   <a class="nav-link" href="../index.html#contacto">Contacto <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../paginas/sobremi.html">Sobre Mi <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="../sobremi.html">Sobre Mi <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-platzi disabled" href="../index.html#suscribete" data-toggle="modal" data-target="#modelSus"><del>Suscríbete</del> <span class="sr-only">(current)</span></a>
@@ -87,7 +87,7 @@ new Vue({
                   <a class="nav-link" href="../../../index.html#contacto">Contacto <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="../../../paginas/sobremi.html">Sobre Mi <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="./../../sobremi.html">Sobre Mi <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-platzi disabled" href="../../../index.html#suscribete" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom" data-toggle="modal" data-target="#modelSus"><del>Suscríbete</del> <span class="sr-only">(current)</span></a>
@@ -127,10 +127,10 @@ new Vue({
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#contacto">Contacto <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="index.html#contacto">Contacto <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="paginas/sobremi.html">Sobre Mi <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="sobremi.html">Sobre Mi <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-platzi disabled" href="#suscribete" data-toggle="modal" data-target="#modelSus"><del>Suscríbete</del> <span class="sr-only">(current)</span></a>
