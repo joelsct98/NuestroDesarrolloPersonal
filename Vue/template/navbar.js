@@ -8,6 +8,12 @@ new Vue({
         titulo: null,
         entrada: null,
         mostrarInput: false,
+        /*
+        * paginas de Blog
+        * */
+        fechaCreacion: null,
+        autorCreacion: null,
+        PBlogPrimerNivel: null,
         navbarBLog: `
         
       <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -247,6 +253,13 @@ new Vue({
                     "</footer>";
             }
         },
+        entradaBlog() {
+            if (this.comprobarExistenciaVariablesAuthorFecha() === true) {
+
+                return "<span>"+ this.fechaCreacion +" por <a style=\" color: rgb(109, 77, 255)\" href=\""+ this.PBlogPrimerNivel +"sobremi.html\"><b>"+ this.autorCreacion +"</b></a></span>\n";
+
+            }
+        },
 
     },
     methods: {
@@ -265,26 +278,25 @@ new Vue({
                 return false
             }
         },
+        comprobarExistenciaVariablesAuthorFecha() {
+            if ((this.fechaCreacion !== null &&
+                this.autorCreacion !== null &&
+                this.PBlogPrimerNivel !== null)) {
+                return true
+            } else {
+                return false
+            }
+        },
         sacarValoresHTML() {
             /*Variables Nav*/
-            const rutaPrimerNivelIndex = this.$refs.rutaPrimerNivelIndex.value;
-            this.rutaPrimerNivelIndex = rutaPrimerNivelIndex;
+            const fechaCreacion = this.$refs.fechaCreacion.value;
+            this.fechaCreacion = fechaCreacion;
 
-            const rutaCategorias = this.$refs.rutaCategorias.value;
-            this.rutaCategorias = rutaCategorias;
+            const autorCreacion = this.$refs.autorCreacion.value;
+            this.autorCreacion = autorCreacion;
 
-            const rutaImagenesNav = this.$refs.rutaImagenesNav.value;
-            this.rutaImagenesNav = rutaImagenesNav;
-
-            const redireccionMismaPagina = this.$refs.redireccionMismaPagina.value;
-            this.redireccionMismaPagina = redireccionMismaPagina;
-
-            const titulo = this.$refs.titulo.value;
-            this.titulo = titulo;
-
-            const entrada = this.$refs.entrada.value;
-            this.entrada = entrada;
-            /*Variables Nav*/
+            const PBlogPrimerNivel = this.$refs.PBlogPrimerNivel.value;
+            this.PBlogPrimerNivel = PBlogPrimerNivel;
 
         },
     },

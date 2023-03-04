@@ -76,7 +76,6 @@
 
   <div id="app">
     <div v-html="navbarP_blog"></div>
-  </div>
 
 
   <!--Main-->
@@ -113,6 +112,11 @@
   <section id="contenido" class="">
     <div class="container-fluid" style="color: white">
       <h3>Consejos prácticos para mejorar el autoestima en español</h3>
+      <input v-show="mostrarInput" ref="fechaCreacion" type="text" value="Marzo 3, 2023">
+      <input v-show="mostrarInput" ref="autorCreacion" type="text" value="Sebastian Tenorio">
+      <input v-show="mostrarInput" ref="PBlogPrimerNivel" type="text" value="../../../">
+
+      <div v-html="entradaBlog"></div>
       <br>
       <div class="row">
 
@@ -295,9 +299,8 @@
     </div>
   </section>
   <!--/cuerpo-->
-  <!-- Footer-->
 
-  <!-- Footer-->
+  </div>
 
 
   <!--footer-->

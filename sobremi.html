@@ -69,7 +69,6 @@
 
     <div id="app">
         <div v-html="navbarIndex"></div>
-    </div>
 
 
     <!--Main-->
@@ -114,6 +113,11 @@
     <section id="contenido" class="">
         <div class="container-fluid" style="color: white">
             <h3>Descripción</h3>
+            <input v-show="mostrarInput" ref="fechaCreacion" type="text" value="Marzo 3, 2023">
+            <input v-show="mostrarInput" ref="autorCreacion" type="text" value="Sebastian Tenorio">
+            <input v-show="mostrarInput" ref="PBlogPrimerNivel" type="text" value="">
+
+            <div v-html="entradaBlog"></div>
             <br>
             <div class="row">
 
@@ -224,6 +228,7 @@
         </div>
     </section>
     <!--/cuerpo-->
+    </div>
 
     <!--footer-->
     <div id="footer">
