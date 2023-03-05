@@ -105,10 +105,22 @@
         </main>
         <!--/Main-->
         <br>
-        <br>
         <!--cuerpo-->
         <section id="contenido" class="">
             <div class="container-fluid" style="color: white">
+                <input v-show="mostrarInput" ref="paginaPrincipal" type="text" value="Inicio">
+                <input v-show="mostrarInput" ref="linkPrincipal" type="text" value="../../../index.html">
+                <input v-show="mostrarInput" ref="paginaSecundaria" type="text" value="Mentalidad">
+                <input v-show="mostrarInput" ref="linkSecundaria" type="text"
+                       value="../../../categorias/mentalidad.html">
+                <input v-show="mostrarInput" ref="paginaTercearia" type="text"
+                       value="Consejos para mejorar tu autoestima y aumentar tu confianza">
+                <input v-show="mostrarInput" ref="linkTercearia" type="text" value="">
+
+                <div v-html="indiceEnlaces"></div>
+                <br>
+
+
                 <h3>Consejos para mejorar tu autoestima y aumentar tu confianza</h3>
                 <input v-show="mostrarInput" ref="fechaCreacion" type="text" value="Marzo 3, 2023">
                 <input v-show="mostrarInput" ref="autorCreacion" type="text" value="Sebastian Tenorio">

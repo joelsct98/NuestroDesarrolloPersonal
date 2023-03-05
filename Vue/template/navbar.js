@@ -1,3 +1,7 @@
+/*
+* Si hay alguna variable que no mande, simplmente va a dar un error y no va a pintar ningun componente
+* */
+
 new Vue({
     el: "#app",
     data: {
@@ -14,6 +18,18 @@ new Vue({
         fechaCreacion: null,
         autorCreacion: null,
         PBlogPrimerNivel: null,
+        /*
+        * Indice enlaces
+        * */
+        paginaPrincipal: null,
+        linkPrincipal: null,
+        paginaSecundaria: null,
+        linkSecundaria: null,
+        paginaTercearia: null,
+        linkTercearia: null,
+        /*
+        * Plantillas estaticas
+        * */
         navbarBLog: `
         
       <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -150,7 +166,8 @@ new Vue({
     },
 
     mounted() {
-        this.sacarValoresHTML()
+        this.vueltaMounted = true;
+        this.sacarValoresHTML();
         this.actualizarHtmlContent(); // Llama al método para actualizar el contenido
     },
     computed: {
@@ -256,7 +273,19 @@ new Vue({
         entradaBlog() {
             if (this.comprobarExistenciaVariablesAuthorFecha() === true) {
 
-                return "<span>"+ this.fechaCreacion +" por <a style=\" color: rgb(109, 77, 255)\" href=\""+ this.PBlogPrimerNivel +"sobremi.html\"><b>"+ this.autorCreacion +"</b></a></span>\n";
+                return "<div class=\"componente\">" + this.fechaCreacion + " por <a href=\"" + this.PBlogPrimerNivel + "sobremi.html\">" + this.autorCreacion + "</a></div>\n";
+
+            }
+        },
+        indiceEnlaces() {
+            if (this.comprobarExistenciaVariablesIndiceEnlaces() === true) {
+                if (this.paginaTercearia !== "") {
+                    return "<div class=\"componente\"><a href=\"" + this.linkPrincipal + "\">" + this.paginaPrincipal + "</a> > <a href=\"" + this.linkSecundaria + "\">" + this.paginaSecundaria + "</a> > " + this.paginaTercearia + "</div>\n";
+                } else if (this.paginaSecundaria !== "") {
+                    return "<div class=\"componente\"><a href=\"" + this.linkPrincipal + "\">" + this.paginaPrincipal + "</a> > " + this.paginaSecundaria + "</div>\n";
+                } else {
+                    return ""
+                }
 
             }
         },
@@ -287,16 +316,62 @@ new Vue({
                 return false
             }
         },
+        comprobarExistenciaVariablesIndiceEnlaces() {
+            if ((this.paginaPrincipal !== null &&
+                this.linkPrincipal !== null &&
+                this.paginaSecundaria !== null &&
+                this.linkSecundaria !== null &&
+                this.paginaTercearia !== null &&
+                this.linkTercearia !== null)) {
+                return true
+            } else {
+                return false
+            }
+        },
         sacarValoresHTML() {
-            /*Variables Nav*/
-            const fechaCreacion = this.$refs.fechaCreacion.value;
-            this.fechaCreacion = fechaCreacion;
+            this.sacarValoresComponenteCreacion();
+            this.sacarValoresHTMLIndiceEnlaces();
+        },
+        sacarValoresComponenteCreacion() {
+            try {
+                /*Variables Nav*/
+                const fechaCreacion = this.$refs.fechaCreacion.value;
+                this.fechaCreacion = fechaCreacion;
 
-            const autorCreacion = this.$refs.autorCreacion.value;
-            this.autorCreacion = autorCreacion;
+                const autorCreacion = this.$refs.autorCreacion.value;
+                this.autorCreacion = autorCreacion;
 
-            const PBlogPrimerNivel = this.$refs.PBlogPrimerNivel.value;
-            this.PBlogPrimerNivel = PBlogPrimerNivel;
+                const PBlogPrimerNivel = this.$refs.PBlogPrimerNivel.value;
+                this.PBlogPrimerNivel = PBlogPrimerNivel;
+            } catch (error) {
+                console.error("No existe variables para Componente Autor Fecha");
+            }
+
+        },
+        sacarValoresHTMLIndiceEnlaces() {
+            try {
+                /*Variables*/
+                const paginaPrincipal = this.$refs.paginaPrincipal.value;
+                this.paginaPrincipal = paginaPrincipal;
+
+                const linkPrincipal = this.$refs.linkPrincipal.value;
+                this.linkPrincipal = linkPrincipal;
+
+                const paginaSecundaria = this.$refs.paginaSecundaria.value;
+                this.paginaSecundaria = paginaSecundaria;
+
+                const linkSecundaria = this.$refs.linkSecundaria.value;
+                this.linkSecundaria = linkSecundaria;
+
+                const paginaTercearia = this.$refs.paginaTercearia.value;
+                this.paginaTercearia = paginaTercearia;
+
+                const linkTercearia = this.$refs.linkTercearia.value;
+                this.linkTercearia = linkTercearia;
+            } catch (error) {
+                // Aquí manejas el error o excepción
+                console.error("No existe variables para Componente Indice Variables");
+            }
 
         },
     },

@@ -419,3 +419,15 @@ hr {
 }
 
 
+/*-------------------------CSS para los componentes-----------------------*/
+
+.componente a {
+  color: rgb(109, 77, 255);
+  font-weight: bold;
+}
+
+.componente {
+  color: white;
+}
+
+
