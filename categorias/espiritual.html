@@ -83,182 +83,231 @@
                                     mejorar tu crecimiento personal, ¡Este blog es perfecto para ti!">
 
         <div v-html="navbarBLog"></div>
-    </div>
-    <!--/header-->
+        <!--/header-->
 
-    <section id="contenido">
+        <section id="contenido">
 
-        <div class="container">
-            <br>
-            <h1>Espiritual</h1>
+            <div class="container">
+                <br>
 
+                <input v-show="mostrarInput" ref="paginaPrincipal" type="text" value="Inicio">
+                <input v-show="mostrarInput" ref="linkPrincipal" type="text" value="../index.html">
+                <input v-show="mostrarInput" ref="paginaSecundaria" type="text" value="Mentalidad">
+                <input v-show="mostrarInput" ref="linkSecundaria" type="text"
+                       value="../../../categorias/mentalidad.html">
+                <input v-show="mostrarInput" ref="paginaTercearia" type="text" value="">
+                <input v-show="mostrarInput" ref="linkTercearia" type="text" value="">
 
-            <nav>
-                <div class="nav nav-tabs mb-4 mt-2" id="nav-tab" role="tablist">
-                    <a class="nav-item nav-link active" id="nav-articulos-tab" data-toggle="tab" href="#nav-articulos"
-                       role="tab" aria-controls="nav-home" aria-selected="true">AUTOESTIMA</a>
-                    <a class="nav-item nav-link" id="nav-tutoriales-tab" data-toggle="tab" href="#nav-tutoriales"
-                       role="tab" aria-controls="nav-profile" aria-selected="false">HABITOS</a>
+                <div v-html="indiceEnlaces"></div>
+                <br>
+                <h1>Mentalidad</h1>
+
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-articulos" role="tabpanel"
+                         aria-labelledby="nav-home-tab">
+
+                        <!--secciones de cosas-->
+                        <div class="row mb-4">
+                            <div id="imagenizq" class="col-12 col-md-6 col-lg-6">
+                                <a href="../dist/blog/mentalidad/Consejos_para_mejorar_tu_autoestima_y_ser_más_confiado.html">
+                                    <img src="../dist/assets/img/autoestima-1.jpg" class="card-img" alt="CookTimer">
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <a href="#">
+                                            <span id="palo">| </span>Desarrollo Interno<span id="palo"> |</span>
+                                        </a><br>
+                                    </div>
+                                    <div class="col-12">
+                                        <h3>Consejos para mejorar tu autoestima y aumentar tu confianza</h3>
+                                    </div>
+                                    <div class="col-12">
+                                        Nadie es perfecto, y no todo el mundo tiene confianza en sí mismo. Pero,
+                                        ¿y si te dijera que hay algunos <span id="resaltar">pasos sencillos</span>
+                                        que puedes dar para <span id="resaltar">mejorar tu autoestima </span>
+                                        y ganar más confianza en español? Sigue leyendo para obtener algunos consejos
+                                        útiles.
+                                        <br><br>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="../dist/blog/mentalidad/Consejos_para_mejorar_tu_autoestima_y_ser_más_confiado.html">
+                                            <button type="button" value="1" class="btn btn-success float-right">Conocer
+                                                más
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--secciones de cosas-->
+                        <div class="row mb-4">
+                            <div id="imagenizq" class="col-12 col-md-6 col-lg-6">
+                                <a href="../dist/blog/mentalidad/Consejos_practicos_para_mejorar_el_autoestima.html">
+                                    <img src="../dist/assets/img/mujer-sonriente-t.jpg" class="card-img"
+                                         alt="CookTimer">
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <a href="#">
+                                            <span id="palo">| </span>Desarrollo Interno<span id="palo"> |</span>
+                                        </a><br>
+                                    </div>
+                                    <div class="col-12">
+                                        <h3>Consejos Prácticos para Mejorar el Autoestima</h3>
+                                    </div>
+                                    <div class="col-12">
+                                        ¿Tiene problemas para aumentar el <span id="resaltar">autoestima</span>? Si es
+                                        así, está en el lugar
+                                        correcto. El <span id="resaltar">autoestima</span> es una clave para una vida
+                                        feliz y saludable. Sin
+                                        embargo, muchas personas, sea por su nacionalidad o por la falta de información,
+                                        no reciben
+                                        suficientes <span id="resaltar">consejos prácticos</span> de cómo aumentar y
+                                        mejorar su <span
+                                            id="resaltar">autoestima</span>. Por lo tanto, siga estos <span
+                                            id="resaltar">consejos prácticos</span> para mejorar el <span id="resaltar">autoestima</span>
+                                        en
+                                        español.
+                                        <br><br>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="../dist/blog/mentalidad/Consejos_practicos_para_mejorar_el_autoestima.html">
+                                            <button type="button" value="1" class="btn btn-success float-right">Conocer
+                                                más
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="nav-tutoriales" role="tabpanel" aria-labelledby="nav-profile-tab">
+
+                        <!--secciones de cosas-->
+                        <div class="row mb-4">
+                            <div id="imagenizq" class="col-12 col-md-6 col-lg-6">
+                                <a href="p_blog/youtube.html?Id=7">
+                                    <img src="..\img/Blog/tutoriales/YouTube-Vanced-New.png" class="card-img"
+                                         alt="CookTimer">
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <a href="#">
+                                            <span id="palo">| </span>Aplicaciones<span id="palo"> |</span>
+                                        </a><br>
+                                    </div>
+                                    <div class="col-12">
+                                        <h3>Youtube Sin anuncios (YouTube-Vanced)</h3>
+                                    </div>
+                                    <div class="col-12">
+                                        He encontrado una manera para tener <b id="resaltar">Youtube Premium</b> sin
+                                        tener que pagar nada,
+                                        esto funciona solo para <b id="resaltar">Android</b>, he preparado un pequeño
+                                        video 3min para hacerlo
+                                        rápido
+                                        y sencillo
+                                        <br><br>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="p_blog/youtube.html?Id=7">
+                                            <button type="button" value="1" class="btn btn-success float-right">Conocer
+                                                más
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--secciones de cosas-->
+                        <div class="row mb-4">
+                            <div id="imagenizq" class="col-12 col-md-6 col-lg-6">
+                                <a href="p_blog/ComputacionCuantica.html?Id=3">
+                                    <img src="..\img/Blog/tutoriales/root.webp" class="card-img" alt="CookTimer">
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <a href="#">
+                                            <span id="palo">| </span>Móviles<span id="palo"> |</span>
+                                        </a><br>
+                                    </div>
+                                    <div class="col-12">
+                                        <h3>Como rootear un movil<span id="enProgreso"> (En Progreso)</span></h3>
+                                    </div>
+                                    <div class="col-12">
+                                        Es muy <b id="resaltar">sencillo</b> y depende del uso que quieras darle al
+                                        móvil puede
+                                        resultar muy útil
+                                        <br><br>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="p_blog/ComputacionCuantica.html?Id=3">
+                                            <button type="button" class="btn btn-success float-right">Conocer más
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--secciones de cosas-->
+                        <div class="row mb-4">
+                            <div id="imagenizq" class="col-12 col-md-6 col-lg-6">
+                                <a href="p_blog/ComputacionCuantica.html?Id=3">
+                                    <img src="..\img/Blog/tutoriales/bitcoin.jpeg" class="card-img" alt="CookTimer">
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <a href="#">
+                                            <span id="palo">| </span>Inversiones<span id="palo"> |</span>
+                                        </a><br>
+                                    </div>
+                                    <div class="col-12">
+                                        <h3>Como invertir en bitcoin desde 0<span id="enProgreso"> (En Progreso)</span>
+                                        </h3>
+                                    </div>
+                                    <div class="col-12">
+                                        Hace poco empecé a invertir en <b id="resaltar">bitcoin</b>, si te interesa
+                                        empezar a invertir también
+                                        en esta tecnología, puedes hacerlo conmigo
+                                        Muy importante destacar que no es un ejercicio de <b id="resaltar">trading</b>,
+                                        mi idea de inversión
+                                        es a largo plazo, no compra y venta de <b id="resaltar">criptomonedas</b>, ya
+                                        que confió en esta
+                                        tecnología, en un futuro puede ser <b id="resaltar">"la"</b> manera de realizar
+                                        transacciones
+                                        <br><br>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="p_blog/ComputacionCuantica.html?Id=3">
+                                            <button type="button" class="btn btn-success float-right">Conocer más
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
-            </nav>
-            <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-articulos" role="tabpanel"
-                     aria-labelledby="nav-home-tab">
 
-                    <!--secciones de cosas-->
-                    <div class="row mb-4">
-                        <div id="imagenizq" class="col-12 col-md-6 col-lg-6">
-                            <a href="../dist/blog/mentalidad/Consejos_para_mejorar_tu_autoestima_y_ser_más_confiado.html">
-                                <img src="../dist/assets/img/autoestima-1.jpg" class="card-img" alt="CookTimer">
-                            </a>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-6">
-                            <div class="row">
-                                <div class="col-12">
-                                    <a href="#">
-                                        <span id="palo">| </span>Desarrollo Interno<span id="palo"> |</span>
-                                    </a><br>
-                                </div>
-                                <div class="col-12">
-                                    <h3>Consejos para mejorar tu autoestima y aumentar tu confianza</h3>
-                                </div>
-                                <div class="col-12">
-                                    Nadie es perfecto, y no todo el mundo tiene confianza en sí mismo. Pero,
-                                    ¿y si te dijera que hay algunos <span id="resaltar">pasos sencillos</span>
-                                    que puedes dar para <span id="resaltar">mejorar tu autoestima </span>
-                                    y ganar más confianza en español? Sigue leyendo para obtener algunos consejos
-                                    útiles.
-                                    <br><br>
-                                </div>
-                                <div class="col-12">
-                                    <a href="../dist/blog/mentalidad/Consejos_para_mejorar_tu_autoestima_y_ser_más_confiado.html">
-                                        <button type="button" value="1" class="btn btn-success float-right">Conocer
-                                            más
-                                        </button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                </div>
-                <div class="tab-pane fade" id="nav-tutoriales" role="tabpanel" aria-labelledby="nav-profile-tab">
-
-                    <!--secciones de cosas-->
-                    <div class="row mb-4">
-                        <div id="imagenizq" class="col-12 col-md-6 col-lg-6">
-                            <a href="p_blog/youtube.html?Id=7">
-                                <img src="..\img/Blog/tutoriales/YouTube-Vanced-New.png" class="card-img"
-                                     alt="CookTimer">
-                            </a>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-6">
-                            <div class="row">
-                                <div class="col-12">
-                                    <a href="#">
-                                        <span id="palo">| </span>Aplicaciones<span id="palo"> |</span>
-                                    </a><br>
-                                </div>
-                                <div class="col-12">
-                                    <h3>Youtube Sin anuncios (YouTube-Vanced)</h3>
-                                </div>
-                                <div class="col-12">
-                                    He encontrado una manera para tener <b id="resaltar">Youtube Premium</b> sin tener
-                                    que pagar nada,
-                                    esto funciona solo para <b id="resaltar">Android</b>, he preparado un pequeño video
-                                    3min para hacerlo rápido
-                                    y sencillo
-                                    <br><br>
-                                </div>
-                                <div class="col-12">
-                                    <a href="p_blog/youtube.html?Id=7">
-                                        <button type="button" value="1" class="btn btn-success float-right">Conocer
-                                            más
-                                        </button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--secciones de cosas-->
-                    <div class="row mb-4">
-                        <div id="imagenizq" class="col-12 col-md-6 col-lg-6">
-                            <a href="p_blog/ComputacionCuantica.html?Id=3">
-                                <img src="..\img/Blog/tutoriales/root.webp" class="card-img" alt="CookTimer">
-                            </a>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-6">
-                            <div class="row">
-                                <div class="col-12">
-                                    <a href="#">
-                                        <span id="palo">| </span>Móviles<span id="palo"> |</span>
-                                    </a><br>
-                                </div>
-                                <div class="col-12">
-                                    <h3>Como rootear un movil<span id="enProgreso"> (En Progreso)</span></h3>
-                                </div>
-                                <div class="col-12">
-                                    Es muy <b id="resaltar">sencillo</b> y depende del uso que quieras darle al móvil
-                                    puede
-                                    resultar muy útil
-                                    <br><br>
-                                </div>
-                                <div class="col-12">
-                                    <a href="p_blog/ComputacionCuantica.html?Id=3">
-                                        <button type="button" class="btn btn-success float-right">Conocer más</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--secciones de cosas-->
-                    <div class="row mb-4">
-                        <div id="imagenizq" class="col-12 col-md-6 col-lg-6">
-                            <a href="p_blog/ComputacionCuantica.html?Id=3">
-                                <img src="..\img/Blog/tutoriales/bitcoin.jpeg" class="card-img" alt="CookTimer">
-                            </a>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-6">
-                            <div class="row">
-                                <div class="col-12">
-                                    <a href="#">
-                                        <span id="palo">| </span>Inversiones<span id="palo"> |</span>
-                                    </a><br>
-                                </div>
-                                <div class="col-12">
-                                    <h3>Como invertir en bitcoin desde 0<span id="enProgreso"> (En Progreso)</span></h3>
-                                </div>
-                                <div class="col-12">
-                                    Hace poco empecé a invertir en <b id="resaltar">bitcoin</b>, si te interesa empezar
-                                    a invertir también
-                                    en esta tecnología, puedes hacerlo conmigo
-                                    Muy importante destacar que no es un ejercicio de <b id="resaltar">trading</b>, mi
-                                    idea de inversión
-                                    es a largo plazo, no compra y venta de <b id="resaltar">criptomonedas</b>, ya que
-                                    confió en esta
-                                    tecnología, en un futuro puede ser <b id="resaltar">"la"</b> manera de realizar
-                                    transacciones
-                                    <br><br>
-                                </div>
-                                <div class="col-12">
-                                    <a href="p_blog/ComputacionCuantica.html?Id=3">
-                                        <button type="button" class="btn btn-success float-right">Conocer más</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
             </div>
 
-
-        </div>
-
-    </section>
-
+        </section>
+    </div>
 
     <!--footer-->
     <div id="footer">
