@@ -75,13 +75,22 @@
 <main>
 
     <div id="app">
-        <div v-html="navbarP_blog"></div>
+
+        <input v-show="mostrarInput" ref="rutaIndex" type="text" value="../../../index.html">
+        <input v-show="mostrarInput" ref="rutaCategorias" type="text" value="../../../categorias/">
+        <input v-show="mostrarInput" ref="rutaSobreMi" type="text" value="../../../sobremi.html">
+        <input v-show="mostrarInput" ref="rutaImagen" type="text"
+               value="../../assets/img/logo-bKthKv-Qu-transformed (1).png">
+
+        <div v-html="navPage"></div>
 
         <!--Main-->
 
-        <input v-show="mostrarInput" ref="tituloPagina" type="text" value="Consejos para mejorar tu autoestima y aumentar tu confianza">
+        <input v-show="mostrarInput" ref="tituloPagina" type="text"
+               value="Consejos para mejorar tu autoestima y aumentar tu confianza">
         <input v-show="mostrarInput" ref="imagenPaginaPortada" type="text" value="../../assets/img/autoestima-1.jpg">
-        <input v-show="mostrarInput" ref="entradaPaginaPortada" value="Nadie es perfecto, y no todo el mundo tiene confianza en sí mismo. Pero, &lt;span id=&quot;resaltar&quot;&gt;&lt;/span&gt;&y si te dijera que hay algunos &lt;span id=&quot;resaltar&quot;&gt;pasos sencillos&lt;/span&gt; que puedes dar para &lt;span id=&quot;resaltar&quot;&gt;mejorar tu autoestima&lt;/span&gt; y ganar más confianza en español? Sigue leyendo para obtener algunos consejos útiles.">
+        <input v-show="mostrarInput" ref="entradaPaginaPortada"
+               value="Nadie es perfecto, y no todo el mundo tiene confianza en sí mismo. Pero, &lt;span id=&quot;resaltar&quot;&gt;&lt;/span&gt;&y si te dijera que hay algunos &lt;span id=&quot;resaltar&quot;&gt;pasos sencillos&lt;/span&gt; que puedes dar para &lt;span id=&quot;resaltar&quot;&gt;mejorar tu autoestima&lt;/span&gt; y ganar más confianza en español? Sigue leyendo para obtener algunos consejos útiles.">
         <input v-show="mostrarInput" ref="numeroImagenes" type="text" value="1">
 
         <div v-html="imagenPagina"></div>

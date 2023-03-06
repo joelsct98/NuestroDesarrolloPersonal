@@ -5,13 +5,16 @@
 new Vue({
     el: "#app",
     data: {
-        rutaPrimerNivelIndex: null,
-        rutaCategorias: null,
-        rutaImagenesNav: null,
-        redireccionMismaPagina: null,
-        titulo: null,
-        entrada: null,
         mostrarInput: false,
+
+        /*
+        * Nav Bar
+        * */
+        rutaIndex: null,
+        rutaCategorias: null,
+        rutaSobreMi: null,
+        rutaImagen: null,
+
         /*
         * paginas de Blog
         * */
@@ -182,53 +185,49 @@ new Vue({
     },
     computed: {
         navPage() {
-            if (this.comprobarExistenciaVariables() === true) {
-                return `
-      <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid ">
-            <a class="navbar-brand" href="index.html">
-              <img src="img/logo.png" alt="logo-bayiba">
-              <strong>NTP</stron
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="paginas/blog.html">Blog</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link text-service dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Servicios
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#Proyectos">Crear Paginas Web</a>
-                    <a class="dropdown-item" href="#Proyectos">Servicio Técnico Personalizado </a>
-                   
-                  </div>
-                </li>
-              <li class="nav-item">
-                <a class="nav-link text-tienda" href="paginas/tienda.html">Tienda<span class="sr-only">(current)</span></a>
-              </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contacto">Contacto <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="paginas/sobremi.html">Sobre Mi <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-platzi disabled" href="#suscribete" data-toggle="modal" data-target="#modelSus">Suscríbete <span class="sr-only">(current)</span></a>
-                </li>
-              </ul>
-            </div>
-        </div>
-      </nav>
-`
+            if (this.comprobarExistenciaVariablesNavBar() === true) {
+
+                return "" +
+                    "    <nav id=\"header\" class=\"navbar navbar-expand-lg navbar-dark bg-dark\">\n" +
+                    "      <div class=\"container-fluid \">\n" +
+                    "        <a class=\"navbar-brand\" href=\"" + this.rutaIndex + "\">\n" +
+                    "          <img src=\"" + this.rutaImagen + "\" alt=\"logo-bayiba\" style=\"width: 10em; height: 5em\">\n" +
+                    "        </a>\n" +
+                    "        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n" +
+                    "          <span class=\"navbar-toggler-icon\"></span>\n" +
+                    "        </button>\n" +
+                    "\n" +
+                    "        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n" +
+                    "          <ul class=\"navbar-nav ml-auto\">\n" +
+                    "            <li class=\"nav-item active\">\n" +
+                    "              <a class=\"nav-link\" href=\"" + this.rutaIndex + "\">Inicio <span class=\"sr-only\">(current)</span></a>\n" +
+                    "            </li>\n" +
+                    "            <li class=\"nav-item dropdown\">\n" +
+                    "              <a class=\"nav-link text-service dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n" +
+                    "                Categorías\n" +
+                    "              </a>\n" +
+                    "              <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\n" +
+                    "                <a class=\"dropdown-item\" href=\"" + this.rutaCategorias + "mentalidad.html\">Mentalidad</a>\n" +
+                    "                <a class=\"dropdown-item\" href=\"" + this.rutaCategorias + "social.html\">Social</a>\n" +
+                    "                <a class=\"dropdown-item\" href=\"" + this.rutaCategorias + "espiritual.html\">Espiritual</a>\n" +
+                    "                <a class=\"dropdown-item\" href=\"" + this.rutaCategorias + "emocional.html\">Emocional</a>\n" +
+                    "                <a class=\"dropdown-item\" href=\"" + this.rutaCategorias + "fisico.html\">Físico</a>\n" +
+                    "                <a class=\"dropdown-item\" href=\"" + this.rutaCategorias + "finanzas.html\">Finanzas</a>\n" +
+                    "              </div>\n" +
+                    "            </li>\n" +
+                    "            <li class=\"nav-item\">\n" +
+                    "              <a class=\"nav-link\" href=\"" + this.rutaIndex + "#contacto\">Contacto <span class=\"sr-only\">(current)</span></a>\n" +
+                    "            </li>\n" +
+                    "            <li class=\"nav-item\">\n" +
+                    "              <a class=\"nav-link\" href=\"" + this.rutaSobreMi + "\">Sobre Mi <span class=\"sr-only\">(current)</span></a>\n" +
+                    "            </li>\n" +
+                    "            <li class=\"nav-item\">\n" +
+                    "              <a class=\"nav-link text-platzi disabled\" href=\"" + this.rutaIndex + "#suscribete\" data-toggle=\"modal\" data-target=\"#modelSus\"><del>Suscríbete</del> <span class=\"sr-only\">(current)</span></a>\n" +
+                    "            </li>\n" +
+                    "          </ul>\n" +
+                    "        </div>\n" +
+                    "      </div>\n" +
+                    "    </nav>\n"
             }
         },
         footerPage() {
@@ -446,6 +445,16 @@ new Vue({
                 return false
             }
         },
+        comprobarExistenciaVariablesNavBar() {
+            if ((this.rutaIndex !== null &&
+                this.rutaCategorias !== null &&
+                this.rutaImagen !== null &&
+                this.rutaSobreMi !== null)) {
+                return true
+            } else {
+                return false
+            }
+        },
 
         /*
         * Sacar Variables del HTML
@@ -507,7 +516,27 @@ new Vue({
                 const numeroImagenes = this.$refs.numeroImagenes.value;
                 this.numeroImagenes = numeroImagenes;
             } catch (error) {
-                console.error("No existe variables para Componente Autor Fecha");
+                console.error("No existe variables para Componente Imagen Pagina");
+            }
+
+        },
+        sacarValoresNavBar() {
+            try {
+                /*Variables Nav*/
+                const rutaIndex = this.$refs.rutaIndex.value;
+                this.rutaIndex = rutaIndex;
+
+                const rutaCategorias = this.$refs.rutaCategorias.value;
+                this.rutaCategorias = rutaCategorias;
+
+                const rutaSobreMi = this.$refs.rutaSobreMi.value;
+                this.rutaSobreMi = rutaSobreMi;
+
+                const rutaImagen = this.$refs.rutaImagen.value;
+                this.rutaImagen = rutaImagen;
+
+            } catch (error) {
+                console.error("No existe variables para Componente NavBar");
             }
 
         },
@@ -518,6 +547,7 @@ new Vue({
             this.sacarValoresComponenteCreacion();
             this.sacarValoresHTMLIndiceEnlaces();
             this.sacarValoresImagenPagina();
+            this.sacarValoresNavBar();
         },
     },
 })

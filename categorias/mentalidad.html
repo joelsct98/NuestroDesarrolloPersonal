@@ -68,30 +68,23 @@
   <!--header-->
   <div id="app">
 
-    <input v-show="mostrarInput" ref="rutaPrimerNivelIndex" type="text" value="../">
-    <input v-show="mostrarInput" ref="rutaCategorias" type="text" value="#">
-    <input v-show="mostrarInput" ref="rutaImagenesNav" type="text" value="../dist/assets/img/Mentalidad.jpg">
-    <input v-show="mostrarInput" ref="redireccionMismaPagina" type="text" value="#">
-    <input v-show="mostrarInput" ref="titulo" type="text" value="Mentalidad">
-    <input v-show="mostrarInput" ref="entrada" type="text" value="El desarrollo es un proceso continuo de mejora de nuestras
-                                    vidas y de nosotros mismos. Independientemente de la edad que tengamos,
-                                    siempre hay formas de mejorar nuestro crecimiento y desarrollo personal.
-                                    En esta entrada del blog, echaremos un vistazo a seis formas distintas de mejorar
-                                    nuestro desarrollo personal. Exploraremos lo que cada una de estas
-                                    técnicas puede hacer por nosotros y cómo podemos utilizarlas para convertirnos
-                                    en mejores versiones de nosotros mismos. Así que si estás buscando formas de
-                                    mejorar tu crecimiento personal, ¡Este blog es perfecto para ti!">
+    <input v-show="mostrarInput" ref="rutaIndex" type="text" value="../index.html">
+    <input v-show="mostrarInput" ref="rutaCategorias" type="text" value="">
+    <input v-show="mostrarInput" ref="rutaSobreMi" type="text" value="../sobremi.html">
+    <input v-show="mostrarInput" ref="rutaImagen" type="text"
+           value="../dist/assets/img/logo-bKthKv-Qu-transformed (1).png">
 
-    <div v-html="navbarBLog"></div>
-  <!--/header-->
+    <div v-html="navPage"></div>
 
-  <section id="contenido">
+    <!--/header-->
 
-    <div class="container">
-      <br>
+    <section id="contenido">
 
-      <input v-show="mostrarInput" ref="paginaPrincipal" type="text" value="Inicio">
-      <input v-show="mostrarInput" ref="linkPrincipal" type="text" value="../index.html">
+      <div class="container">
+        <br>
+
+        <input v-show="mostrarInput" ref="paginaPrincipal" type="text" value="Inicio">
+        <input v-show="mostrarInput" ref="linkPrincipal" type="text" value="../index.html">
       <input v-show="mostrarInput" ref="paginaSecundaria" type="text" value="Mentalidad">
       <input v-show="mostrarInput" ref="linkSecundaria" type="text" value="../../../categorias/mentalidad.html">
       <input v-show="mostrarInput" ref="paginaTercearia" type="text" value="">
