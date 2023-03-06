@@ -78,33 +78,15 @@
         <div v-html="navbarP_blog"></div>
 
         <!--Main-->
-        <main id="main">
-            <div id="carousel" class="carousel slide carousel-fade mb-4" data-ride="carousel" data-pause="false">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="../../assets/img/autoestima-1.jpg" alt="Hawaii 1">
-                    </div>
-                    <div class="overlay">
-                        <div class="container">
-                            <div class="row align-items-center">
-                                <div class="col-md-6 offset-md-6 text-center text-md-right">
-                                    <h1>Consejos para mejorar tu autoestima y aumentar tu confianza</h1>
-                                    <p class="d-md-block">
-                                        Nadie es perfecto, y no todo el mundo tiene confianza en sí mismo. Pero,
-                                        ¿y si te dijera que hay algunos <span id="resaltar">pasos sencillos</span>
-                                        que puedes dar para <span id="resaltar">mejorar tu autoestima </span>
-                                        y ganar más confianza en español? Sigue leyendo para obtener algunos consejos
-                                        útiles.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
+
+        <input v-show="mostrarInput" ref="tituloPagina" type="text" value="Consejos para mejorar tu autoestima y aumentar tu confianza">
+        <input v-show="mostrarInput" ref="imagenPaginaPortada" type="text" value="../../assets/img/autoestima-1.jpg">
+        <input v-show="mostrarInput" ref="entradaPaginaPortada" value="Nadie es perfecto, y no todo el mundo tiene confianza en sí mismo. Pero, &lt;span id=&quot;resaltar&quot;&gt;&lt;/span&gt;&y si te dijera que hay algunos &lt;span id=&quot;resaltar&quot;&gt;pasos sencillos&lt;/span&gt; que puedes dar para &lt;span id=&quot;resaltar&quot;&gt;mejorar tu autoestima&lt;/span&gt; y ganar más confianza en español? Sigue leyendo para obtener algunos consejos útiles.">
+        <input v-show="mostrarInput" ref="numeroImagenes" type="text" value="1">
+
+        <div v-html="imagenPagina"></div>
+
         <!--/Main-->
-        <br>
         <!--cuerpo-->
         <section id="contenido" class="">
             <div class="container-fluid" style="color: white">

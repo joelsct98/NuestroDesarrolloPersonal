@@ -18,6 +18,7 @@ new Vue({
         fechaCreacion: null,
         autorCreacion: null,
         PBlogPrimerNivel: null,
+
         /*
         * Indice enlaces
         * */
@@ -27,6 +28,15 @@ new Vue({
         linkSecundaria: null,
         paginaTercearia: null,
         linkTercearia: null,
+
+        /*
+        * Imagen Pagina
+        * */
+        tituloPagina: null,
+        imagenPaginaPortada: null,
+        entradaPaginaPortada: null,
+        numeroImagenes: null,
+
         /*
         * Plantillas estaticas
         * */
@@ -289,12 +299,110 @@ new Vue({
 
             }
         },
+        imagenPagina() {
+            if (this.comprobarExistenciaVariablesImagenPagina() === true) {
+
+                var componente;
+
+                if (parseInt(this.numeroImagenes) > 1){
+
+                    var imagenPortada = "";
+
+                    try {
+                        var imagenPaginaPortada2 = this.$refs.imagenPaginaPortada2.value;
+                        this.imagenPaginaPortada2 = imagenPaginaPortada2;
+
+                        if (parseInt(this.numeroImagenes) === 2){
+                            imagenPortada += "" +
+                                "          <div class=\"carousel-item active\">\n" +
+                                "            <img class=\"d-block w-100\" src=\" "+this.imagenPaginaPortada+"\" alt=\"ImagenCarrusel "+1+"\">\n" +
+                                "          </div>\n"+
+                                "          <div class=\"carousel-item\">\n" +
+                                "            <img class=\"d-block w-100\" src=\" "+this.imagenPaginaPortada2+"\" alt=\"ImagenCarrusel "+2+"\">\n" +
+                                "          </div>\n"
+                        }
+                    } catch (error) {
+                        console.error("No existe la segunda imagen para el componente ImagenPagina");
+                    }
+
+                    try {
+                        var imagenPaginaPortada3 = this.$refs.imagenPaginaPortada3.value;
+                        this.imagenPaginaPortada3 = imagenPaginaPortada3;
+
+                        if (parseInt(this.numeroImagenes) === 3){
+                            imagenPortada += "" +
+                                "          <div class=\"carousel-item active\">\n" +
+                                "            <img class=\"d-block w-100\" src=\" "+this.imagenPaginaPortada+"\" alt=\"ImagenCarrusel "+1+"\">\n" +
+                                "          </div>\n"+
+                                "          <div class=\"carousel-item\">\n" +
+                                "            <img class=\"d-block w-100\" src=\" "+this.imagenPaginaPortada2+"\" alt=\"ImagenCarrusel "+2+"\">\n" +
+                                "          </div>\n"+
+                                "          <div class=\"carousel-item\">\n" +
+                                "            <img class=\"d-block w-100\" src=\" "+this.imagenPaginaPortada3+"\" alt=\"ImagenCarrusel "+3+"\">\n" +
+                                "          </div>\n"
+                        }
+                    } catch (error) {
+                        console.error("No existe la tercera imagen para el componente ImagenPagina");
+                    }
+
+                    componente = "" +
+                        "    <main id=\"main\">\n" +
+                        "      <div id=\"carousel\" class=\"carousel slide carousel-fade mb-4\" data-ride=\"carousel\" data-pause=\"false\">\n" +
+                        "        <div class=\"carousel-inner\">\n" +
+                                    imagenPortada +
+                        "          <div class=\"overlay\">\n" +
+                        "            <div class=\"container\">\n" +
+                        "              <div class=\"row align-items-center\">\n" +
+                        "                <div class=\"col-md-6 offset-md-6 text-center text-md-right\">\n" +
+                        "                  <h1>"+ this.tituloPagina +"</h1>\n" +
+                        "                  <p class=\"d-md-block\">\n" +
+                        "                    "+ this.entradaPaginaPortada +" \n" +
+                        "                  </p>\n" +
+                        "                </div>\n" +
+                        "              </div>\n" +
+                        "            </div>\n" +
+                        "          </div>\n" +
+                        "        </div>\n" +
+                        "      </div>\n" +
+                        "    </main>"
+
+                }else {
+
+                    componente = "" +
+                    "    <main id=\"main\">\n" +
+                    "      <div id=\"carousel\" class=\"carousel slide carousel-fade mb-4\" data-ride=\"carousel\" data-pause=\"false\">\n" +
+                    "        <div class=\"carousel-inner\">\n" +
+                    "          <div class=\"carousel-item active\">\n" +
+                    "            <img class=\"d-block w-100\" src=\" "+this.imagenPaginaPortada+"\" alt=\"Hawaii 1\">\n" +
+                    "          </div>\n" +
+                    "          <div class=\"overlay\">\n" +
+                    "            <div class=\"container\">\n" +
+                    "              <div class=\"row align-items-center\">\n" +
+                    "                <div class=\"col-md-6 offset-md-6 text-center text-md-right\">\n" +
+                    "                  <h1>"+ this.tituloPagina +"</h1>\n" +
+                    "                  <p class=\"d-md-block\">\n" +
+                    "                    "+ this.entradaPaginaPortada +" \n" +
+                    "                  </p>\n" +
+                    "                </div>\n" +
+                    "              </div>\n" +
+                    "            </div>\n" +
+                    "          </div>\n" +
+                    "        </div>\n" +
+                    "      </div>\n" +
+                    "    </main>"
+
+                }
+
+                return componente;
+
+            }
+        },
 
     },
     methods: {
-        actualizarHtmlContent() {
-            this.$forceUpdate(); // Forza la actualización del componente
-        },
+        /*
+        * Comprobar Variables
+        * */
         comprobarExistenciaVariables() {
             if ((this.rutaPrimerNivelIndex !== null &&
                 this.rutaCategorias !== null &&
@@ -328,10 +436,20 @@ new Vue({
                 return false
             }
         },
-        sacarValoresHTML() {
-            this.sacarValoresComponenteCreacion();
-            this.sacarValoresHTMLIndiceEnlaces();
+        comprobarExistenciaVariablesImagenPagina() {
+            if ((this.tituloPagina !== null &&
+                this.imagenPaginaPortada !== null &&
+                this.entradaPaginaPortada !== null &&
+                this.numeroImagenes !== null)) {
+                return true
+            } else {
+                return false
+            }
         },
+
+        /*
+        * Sacar Variables del HTML
+        * */
         sacarValoresComponenteCreacion() {
             try {
                 /*Variables Nav*/
@@ -373,6 +491,33 @@ new Vue({
                 console.error("No existe variables para Componente Indice Variables");
             }
 
+        },
+        sacarValoresImagenPagina() {
+            try {
+                /*Variables Nav*/
+                const tituloPagina = this.$refs.tituloPagina.value;
+                this.tituloPagina = tituloPagina;
+
+                const imagenPaginaPortada = this.$refs.imagenPaginaPortada.value;
+                this.imagenPaginaPortada = imagenPaginaPortada;
+
+                const entradaPaginaPortada = this.$refs.entradaPaginaPortada.value;
+                this.entradaPaginaPortada = entradaPaginaPortada;
+
+                const numeroImagenes = this.$refs.numeroImagenes.value;
+                this.numeroImagenes = numeroImagenes;
+            } catch (error) {
+                console.error("No existe variables para Componente Autor Fecha");
+            }
+
+        },
+        actualizarHtmlContent() {
+            this.$forceUpdate(); // Forza la actualización del componente
+        },
+        sacarValoresHTML() {
+            this.sacarValoresComponenteCreacion();
+            this.sacarValoresHTMLIndiceEnlaces();
+            this.sacarValoresImagenPagina();
         },
     },
 })

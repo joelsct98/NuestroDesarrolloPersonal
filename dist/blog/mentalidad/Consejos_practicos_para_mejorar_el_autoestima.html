@@ -79,34 +79,15 @@
 
 
   <!--Main-->
-  <main id="main">
-    <div id="carousel" class="carousel slide carousel-fade mb-4" data-ride="carousel" data-pause="false">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="../../assets/img/mujer-sonriente-t.jpg" alt="Hawaii 1">
-        </div>
-        <div class="overlay">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-md-6 offset-md-6 text-center text-md-right">
-                <h1>Consejos prácticos para mejorar el autoestima en español</h1>
-                <p class="d-md-block">
-                  ¿Quieres mejorar tu <span id="resaltar">autoestima</span> en español? Si estás buscando mejorar tu
-                  <span id="resaltar">autoestima</span>, entonces estás en el lugar correcto. Has llegado a la guía
-                  donde encontrarás <span id="resaltar">consejos</span> y <span id="resaltar">trucos prácticos</span>
-                  para mejorar tu <span id="resaltar">autoestima</span> en español. Estos <span
-                        id="resaltar">consejos</span> te ayudarán a <span id="resaltar">amarte a ti misma/o</span>, a
-                  forjar tu <span id="resaltar">confianza</span> y a ser tu mejor <span id="resaltar">versión</span>.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
+    <input v-show="mostrarInput" ref="tituloPagina" type="text" value="Consejos prácticos para mejorar el autoestima en español">
+    <input v-show="mostrarInput" ref="imagenPaginaPortada" type="text" value="../../assets/img/mujer-sonriente-t.jpg">
+    <input v-show="mostrarInput" ref="entradaPaginaPortada" value="¿Quieres mejorar tu &lt;span id=&quot;resaltar&quot;&gt;autoestima&lt;/span&gt; en español? Si estás buscando mejorar tu &lt;span id=&quot;resaltar&quot;&gt;autoestima&lt;/span&gt;, entonces estás en el lugar correcto. Has llegado a la guía donde encontrarás &lt;span id=&quot;resaltar&quot;&gt;consejos&lt;/span&gt; y &lt;span id=&quot;resaltar&quot;&gt;trucos prácticos&lt;/span&gt; para mejorar tu &lt;span id=&quot;resaltar&quot;&gt;autoestima&lt;/span&gt; en español. Estos &lt;span id=&quot;resaltar&quot;&gt;consejos&lt;/span&gt; te ayudarán a &lt;span id=&quot;resaltar&quot;&gt;amarte a ti misma/o&lt;/span&gt;, a forjar tu &lt;span id=&quot;resaltar&quot;&gt;confianza&lt;/span&gt; y a ser tu mejor &lt;span id=&quot;resaltar&quot;&gt;versión&lt;/span&gt;.">
+    <input v-show="mostrarInput" ref="numeroImagenes" type="text" value="1">
+
+    <div v-html="imagenPagina"></div>
+
+
   <!--/Main-->
-  <br>
   <!--cuerpo-->
   <section id="contenido" class="">
     <div class="container-fluid" style="color: white">
