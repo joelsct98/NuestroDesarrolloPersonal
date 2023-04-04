@@ -86,14 +86,27 @@
 
 
     <!--Main-->
-    <input v-show="mostrarInput" ref="tituloPagina" type="text"
-           value="Cómo aumentar tu autoestima: 10 consejos para mejorar la confianza en ti mismo en español">
-    <input v-show="mostrarInput" ref="imagenPaginaPortada" type="text" value="../../assets/img/confianza-uno-mismo.jpg">
-    <input v-show="mostrarInput" ref="entradaPaginaPortada"
-           value="&lt;span id=&quot;resaltar&quot;&gt;La autoestima&lt;/span&gt; es una parte importante de nuestras vidas, ya que afecta a nuestra perspectiva general y a nuestro comportamiento ante la vida. Tambi&eacute;n afecta a nuestra capacidad para tomar decisiones y a nuestra interacci&oacute;n con la gente. Tener una &lt;span id=&quot;resaltar&quot;&gt;autoestima baja&lt;/span&gt; puede tener efectos perjudiciales en nuestras vidas. Aqu&iacute; exploraremos 10 consejos sobre c&oacute;mo aumentar tu autoestima en espa&ntilde;ol.">
-    <input v-show="mostrarInput" ref="numeroImagenes" type="text" value="1">
-
-    <div v-html="imagenPagina"></div>
+    <main id="main">
+      <div id="carousel" class="carousel slide carousel-fade mb-4" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="../../assets/img/confianza-uno-mismo.jpg" alt="Hawaii 1">
+          </div>
+          <div class="overlay">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-md-6 offset-md-6 text-center text-md-right">
+                  <h1>Cómo aumentar tu autoestima: 10 consejos para mejorar la confianza en ti mismo en español</h1>
+                  <p class="d-md-block">
+                    <span id="resaltar">La autoestima</span> es una parte importante de nuestras vidas, ya que afecta a nuestra perspectiva general y a nuestro comportamiento ante la vida. También afecta a nuestra capacidad para tomar decisiones y a nuestra interacción con la gente. Tener una <span id="resaltar">autoestima baja</span> puede tener efectos perjudiciales en nuestras vidas. Aquí exploraremos 10 consejos sobre cómo aumentar tu autoestima en español.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
 
   <!--/Main-->
