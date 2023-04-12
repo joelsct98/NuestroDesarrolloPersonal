@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../../CSS/index.css"/>
+  <title>Nuestro Desarrollo Personal</title>
+  <link rel="icon" type="image/png" href="../../img/logo.png"/>
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({
+      'gtm.start':
+              new Date().getTime(), event: 'gtm.js'
+    });
+    var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+    j.async = true;
+    j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, 'script', 'dataLayer', 'GTM-PMWF92R');</script>
+  <!-- End Google Tag Manager -->
+
+  <title>Clean Blog - Start Bootstrap Theme</title>
+  <link rel="icon" type="image/x-icon" href="../../assets/favicon.ico"/>
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css"/>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+        rel="stylesheet" type="text/css"/>
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="../../css/estilos.css" rel="stylesheet"/>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EMFE9ECW0Q"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-EMFE9ECW0Q');
+  </script>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2374407174542373"
+          crossorigin="anonymous"></script>
+  <script src="../../../Vue/template/navbar.js"></script>
+  <!-- Core theme CSS (includes Bootstrap)-->
+
+</head>
+
+<body>
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMWF92R"
+          height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<main>
+
+  <div id="app">
+
+    <input v-show="mostrarInput" ref="rutaIndex" type="text" value="../../../index.html">
+    <input v-show="mostrarInput" ref="rutaCategorias" type="text" value="../../../categorias/">
+    <input v-show="mostrarInput" ref="rutaSobreMi" type="text" value="../../../sobremi.html">
+    <input v-show="mostrarInput" ref="rutaImagen" type="text"
+           value="../../assets/img/logo-bKthKv-Qu-transformed (1).png">
+
+    <div v-html="navPage"></div>
+
+
+    <!--Main-->
+    <input v-show="mostrarInput" ref="tituloPagina" type="text"
+           value="Consejos prácticos para mejorar el autoestima en español">
+    <input v-show="mostrarInput" ref="imagenPaginaPortada" type="text" value="../../assets/img/mujer-sonriente-t.jpg">
+    <input v-show="mostrarInput" ref="entradaPaginaPortada"
+           value="¿Quieres mejorar tu &lt;span id=&quot;resaltar&quot;&gt;autoestima&lt;/span&gt; en español? Si estás buscando mejorar tu &lt;span id=&quot;resaltar&quot;&gt;autoestima&lt;/span&gt;, entonces estás en el lugar correcto. Has llegado a la guía donde encontrarás &lt;span id=&quot;resaltar&quot;&gt;consejos&lt;/span&gt; y &lt;span id=&quot;resaltar&quot;&gt;trucos prácticos&lt;/span&gt; para mejorar tu &lt;span id=&quot;resaltar&quot;&gt;autoestima&lt;/span&gt; en español. Estos &lt;span id=&quot;resaltar&quot;&gt;consejos&lt;/span&gt; te ayudarán a &lt;span id=&quot;resaltar&quot;&gt;amarte a ti misma/o&lt;/span&gt;, a forjar tu &lt;span id=&quot;resaltar&quot;&gt;confianza&lt;/span&gt; y a ser tu mejor &lt;span id=&quot;resaltar&quot;&gt;versión&lt;/span&gt;.">
+
+    <input v-show="mostrarInput" ref="numeroImagenes" type="text" value="1">
+
+    <div v-html="imagenPagina"></div>
+
+
+    <!--/Main-->
+    <!--cuerpo-->
+    <section id="contenido" class="">
+      <div class="container-fluid" style="color: white">
+        <input v-show="mostrarInput" ref="paginaPrincipal" type="text" value="Inicio">
+        <input v-show="mostrarInput" ref="linkPrincipal" type="text" value="../../../index.html">
+        <input v-show="mostrarInput" ref="paginaSecundaria" type="text" value="Mentalidad">
+        <input v-show="mostrarInput" ref="linkSecundaria" type="text"
+               value="../../../categorias/mentalidad.html">
+        <input v-show="mostrarInput" ref="paginaTercearia" type="text"
+               value="Consejos para mejorar tu autoestima y aumentar tu confianza">
+        <input v-show="mostrarInput" ref="linkTercearia" type="text" value="">
+
+        <div v-html="indiceEnlaces"></div>
+        <br>
+
+        <h3>Consejos prácticos para mejorar el autoestima en español</h3>
+        <input v-show="mostrarInput" ref="fechaCreacion" type="text" value="Marzo 3, 2023">
+        <input v-show="mostrarInput" ref="autorCreacion" type="text" value="Sebastian Tenorio">
+        <input v-show="mostrarInput" ref="PBlogPrimerNivel" type="text" value="../../../">
+
+        <div v-html="entradaBlog"></div>
+        <br>
+        <div class="row">
+
+          <div class="col-12 col-lg-11">
+            <div class="row">
+              <div class="col-12 col-sm-12 col-md-12 col-lg-9 text-right">
+              <span class="badge badge-pill badge-primary"
+                    style="background-color: #4ee707; font-size: 15px">título</span>
+                <span class="badge badge-pill badge-secondary"
+                      style="background-color: rgb(109, 77, 255); font-size: 15px">enlaces</span>
+                <span class="badge badge-pill badge-success"
+                      style="background-color: #d09d81; font-size: 15px">Extras</span>
+                <span class="badge badge-pill badge-success" style="background-color: #00CBFE; font-size: 15px">Explicación aburrida, no tan aburrida</span>
+              </div>
+              <div class="col-3 col-sm-12 col-md-12 col-lg-3"></div>
+            </div>
+            <div class="col-12">
+              <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-9">
+                  <div id="contenido-texto">
+                    <!DOCTYPE html>
+                    <html>
+                    <head>
+                      <title>La fuerza de la creencia: cómo puede influir en nuestro éxito</title>
+                    </head>
+                    <body>
+                    <h1>La fuerza de la creencia: cómo puede influir en nuestro éxito</h1>
+                    <h2>Introducción</h2>
+                    <p>La creencia puede ser una fuerza poderosa en nuestras vidas. Nos puede impulsar a alcanzar
+                      grandes cosas o limitarnos en nuestro camino hacia el éxito. En este artículo, exploraremos cómo
+                      la creencia puede influir en nuestro éxito y cómo podemos utilizarla a nuestro favor.</p>
+                    <h2>El poder de la creencia</h2>
+                    <p>Nuestra creencia en nosotros mismos y en nuestras habilidades puede tener un gran impacto en
+                      nuestro éxito. Si creemos en nosotros mismos, es más probable que nos esforcemos y perseveremos
+                      para alcanzar nuestras metas. Por otro lado, si no creemos en nosotros mismos, es más probable que
+                      nos demos por vencidos antes de tiempo.</p>
+                    <h3>Cómo nuestras creencias afectan nuestro comportamiento</h3>
+                    <p>Nuestras creencias también pueden influir en nuestro comportamiento. Si creemos que somos capaces
+                      de lograr algo, es más probable que tomemos medidas para lograrlo. Por otro lado, si no creemos
+                      que podemos lograr algo, es menos probable que tomemos medidas para alcanzarlo.</p>
+                    <h2>Cómo utilizar la creencia para nuestro éxito</h2>
+                    <p>Si queremos utilizar la creencia para nuestro éxito, es importante que adoptemos creencias
+                      positivas sobre nosotros mismos y nuestras habilidades. Podemos hacer esto a través de la
+                      visualización positiva, la repetición de afirmaciones positivas y el enfocarnos en nuestros logros
+                      y fortalezas.</p>
+                    <h3>La importancia de la autoestima</h3>
+                    <p>La autoestima también es un factor importante en nuestra creencia en nosotros mismos y en
+                      nuestras habilidades. Si tenemos una alta autoestima, es más probable que tengamos creencias
+                      positivas sobre nosotros mismos y nuestras habilidades. Por otro lado, si tenemos una baja
+                      autoestima, es más probable que tengamos creencias negativas sobre nosotros mismos y nuestras
+                      habilidades.</p>
+                    <h2>Conclusión</h2>
+                    <p>La creencia puede ser una fuerza poderosa en nuestras vidas y puede influir en nuestro éxito. Si
+                      queremos utilizar la creencia para nuestro éxito, es importante que adoptemos creencias positivas
+                      sobre nosotros mismos y nuestras habilidades.</p>
+                    <h2>Preguntas frecuentes</h2>
+                    <h3>1. ¿Cómo puedo mejorar mi creencia en mí mismo?</h3>
+                    <p>Se puede mejorar la creencia en sí mismo a través de la visualización positiva, la repetición de
+                      afirmaciones positivas y el enfocarnos en nuestros logros y fortalezas.</p>
+                    <h3>2. ¿Cómo afecta la creencia en sí mismo al éxito?</h3>
+                    <p>La creencia en sí mismo puede tener un gran impacto en el éxito. Si creemos en nosotros mismos,
+                      es más probable que nos esforcemos y perseveremos para alcanzar nuestras metas.</p>
+                    <h3>3. ¿Cómo influye la autoestima en la creencia en sí mismo?</h3>
+                    <p>La autoestima es un factor importante en la creencia en sí mismo. Si tenemos una alta autoestima,
+                      es más probable que tengamos creencias positivas sobre nosotros mismos y nuestras habilidades.</p>
+                    <h3>4. ¿Cómo puedo mejorar mi autoestima?</h3>
+                    <p>Algunas formas de mejorar la autoestima incluyen la práctica de la autocompasión, la
+                      identificación y la superación de pensamientos negativos y el cuidado de uno mismo.</p>
+                    <h3>5. ¿Qué pasa si tengo creencias negativas sobre mí mismo?</h3>
+                    <p>Si tienes creencias negativas sobre ti mismo, es importante trabajar en cambiar esas creencias a
+                      través de la visualización positiva, la repetición de afirmaciones positivas y el enfocarnos en
+                      nuestros logros y fortalezas.</p>
+                    </body>
+                    </html>
+                  </div>
+
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                  <div id="post-recientes">
+                    <hr class="border border-warning border-2 opacity-50" style="color: orange">
+                    <h1 style="color: orange">Novedades</h1>
+
+                    <div class="novedad">
+                      <a href="../mentalidad/Consejos_practicos_para_mejorar_el_autoestima.html">
+                        <div class="row">
+                          <div class="col-6">
+                            <img src="../../assets/img/mujer-sonriente-t.jpg" class="img-fluid" alt="...">
+                          </div>
+                          <div class="col-6">
+                            <h4><b>Consejos Prácticos para Mejorar el Autoestima</b></h4>
+                            <span class="small">marzo 2, 2023</span>
+                            <hr class="d-none d-col-sm-none d-md-block col-lg-block">
+                          </div>
+                        </div>
+                      </a>
+                      <br>
+                    </div>
+                    <div class="novedad">
+                      <a href="../mentalidad/Consejos_practicos_para_mejorar_el_autoestima.html">
+                        <div class="row">
+                          <div class="col-6">
+                            <img src="../../assets/img/autoestima-1.jpg" class="img-fluid" alt="...">
+                          </div>
+                          <div class="col-6">
+                            <h4><b>Consejos para mejorar tu autoestima y aumentar tu confianza</b></h4>
+                            <span class="small">marzo 2, 2023</span>
+                            <hr class="d-none d-col-sm-none d-md-block col-lg-block">
+                          </div>
+                        </div>
+                      </a>
+                      <br>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+        <br>
+        <br>
+
+
+        <h3>Comentarios</h3>
+
+        <div class="row mt-4">
+          <div class="col-12 col-md-10 col-lg-10">
+            <div class="row">
+              <div class="col-12 mb-2">
+                      <textarea class="form-control" style="background-color: black; color: white;" name="texto"
+                                id="validationTextarea" placeholder="Dime lo que piensas..." required></textarea>
+              </div>
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-8">
+                    <div class="row">
+                      <div class="col-4 text-left text-md-right text-lg-right">
+                        <label for="commet" id="resaltar">Comentar como:</label>
+                      </div>
+                      <div class="col-8 text-left">
+                        <input type="text" id="identityMenu" list="lista_opciones"/>
+
+                        <datalist id="lista_opciones" name="commet" dir="ltr">
+                          <option value="NONE" disabled="">Seleccionar perfil...</option>
+                          <option value="Anónimo">Anónimo</option>
+                        </datalist>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4 text-right">
+                    <button type="button" id="Enviar" class="btn btn-warning" onclick="Enviar()">Comentar</button>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-12">
+                      <button type="button" id="NumeroDeComentarios" class="btn btn-warning mt-2" style="width: 100%"
+                              onclick="Generar()">
+                        Warning
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-12">
+                      <button type="button" id="NumeroDeComentariosCerrar" class="btn btn-warning mt-2"
+                              style="width: 100%; display: none" onclick="CerrarLoGenerar()">
+                        Cerrar Comentarios
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <!--Comentarios Generados -->
+                <div id="PosicionarComentarios">
+                </div>
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-12">
+                      <button type="button" id="NumeroDeComentariosCerrar" class="btn btn-warning mt-2"
+                              style="width: 100%; display: none" onclick="CerrarLoGenerar()">
+                        Cerrar Comentarios
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-2 col-lg-2"></div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3">
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/cuerpo-->
+
+  </div>
+
+
+  <!--footer-->
+  <div id="footer">
+    <div v-html="footerP_blog"></div>
+  </div>
+  <!--/footer-->
+
+  <!--Vue.js-->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <!--Final Vue.js-->
+
+  <!-- No mirar apartir de aqui-->
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="../../js/scripts.js"></script>
+
+  <div class="aviso-cookies" id="aviso-cookies">
+    <img class="galleta" src="../../assets/img/cookie.svg" alt="Galleta">
+    <h3 class="titulo">Cookies</h3>
+    <p class="parrafo">Utilizamos cookies propias y de terceros para mejorar nuestros servicios.</p>
+    <button class="boton" id="btn-aceptar-cookies">De acuerdo</button>
+    <a class="enlace" href="../../politicasPrivacidad/aviso-cookies.html">Aviso de Cookies</a>
+  </div>
+  <div class="fondo-aviso-cookies" id="fondo-aviso-cookies"></div>
+
+  <script src="../../js/aviso-cookies.js"></script>
+  <!-- Termina No mirar apartir de aqui-->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+          crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+          crossorigin="anonymous"></script>
+  <script src="../../../JS/HeredarArticulos.js"></script>
+  <script src="../../../JS/articulos-Jquery.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="../../../Vue/template/navbar.js"></script>
+  <script src="../../../Vue/template/footer.js"></script>
+
+</main>
+</body>
+</html>
