@@ -1,0 +1,363 @@
+
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+       <!-- Required meta tags -->
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+       <!-- Bootstrap CSS -->
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+             integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+       <link rel="stylesheet" href="../../../CSS/index.css"/>
+       <title>Nuestro Desarrollo Personal</title>
+       <link rel="icon" type="image/png" href="../../img/logo.png"/>
+
+       <!-- Google Tag Manager -->
+       <script>(function (w, d, s, l, i) {
+         w[l] = w[l] || [];
+         w[l].push({
+           'gtm.start':
+                   new Date().getTime(), event: 'gtm.js'
+         });
+         var f = d.getElementsByTagName(s)[0],
+                 j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+         j.async = true;
+         j.src =
+                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+         f.parentNode.insertBefore(j, f);
+       })(window, document, 'script', 'dataLayer', 'GTM-PMWF92R');</script>
+       <!-- End Google Tag Manager -->
+
+       <title>Clean Blog - Start Bootstrap Theme</title>
+       <link rel="icon" type="image/x-icon" href="../../assets/favicon.ico"/>
+       <!-- Font Awesome icons (free version)-->
+       <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+       <!-- Google fonts-->
+       <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
+             type="text/css"/>
+       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+             rel="stylesheet" type="text/css"/>
+       <!-- Core theme CSS (includes Bootstrap)-->
+       <link href="../../css/estilos.css" rel="stylesheet"/>
+
+       <!-- Google tag (gtag.js) -->
+       <script async src="https://www.googletagmanager.com/gtag/js?id=G-EMFE9ECW0Q"></script>
+       <script>
+         window.dataLayer = window.dataLayer || [];
+
+         function gtag() {
+           dataLayer.push(arguments);
+         }
+
+         gtag('js', new Date());
+
+         gtag('config', 'G-EMFE9ECW0Q');
+       </script>
+
+       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2374407174542373"
+               crossorigin="anonymous"></script>
+       <script src="../../../Vue/template/navbar.js"></script>
+       <!-- Core theme CSS (includes Bootstrap)-->
+
+     </head>
+
+     <body>
+
+
+     <!-- Google Tag Manager (noscript) -->
+     <noscript>
+       <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMWF92R"
+               height="0" width="0" style="display:none;visibility:hidden"></iframe>
+     </noscript>
+     <!-- End Google Tag Manager (noscript) -->
+
+
+     <main>
+
+       <div id="app">
+
+         <input v-show="mostrarInput" ref="rutaIndex" type="text" value="../../../index.html">
+         <input v-show="mostrarInput" ref="rutaCategorias" type="text" value="../../../categorias/">
+         <input v-show="mostrarInput" ref="rutaSobreMi" type="text" value="../../../sobremi.html">
+         <input v-show="mostrarInput" ref="rutaImagen" type="text"
+                value="../../assets/img/logo-bKthKv-Qu-transformed (1).png">
+
+         <div v-html="navPage"></div>
+
+
+         <!--Main-->
+         <main id="main">
+           <div id="carousel" class="carousel slide carousel-fade mb-4" data-ride="carousel" data-pause="false">
+             <div class="carousel-inner">
+               <div class="carousel-item active">
+                 <img class="d-block w-100" src="../../assets/img/espiritual.jpg" alt="Hawaii 1">
+               </div>
+               <div class="overlay">
+                 <div class="container">
+                   <div class="row align-items-center">
+                     <div class="col-md-6 offset-md-6 text-center text-md-right">
+                       <h1>"¿Existe vida después de la muerte? La trascendencia como respuesta"</h1>
+                       <p class="d-md-block">
+                         <b>¿Existe vida después de la muerte? La trascendencia como respuesta</b>
+
+El tema de la vida después de la muerte ha sido objeto de debate y especulación a lo largo de la historia de la humanidad. La creencia en la trascendencia, la idea de que el alma o la conciencia pueden sobrevivir a la muerte del cuerpo, ha sido una de las respuestas más comunes. Aunque no hay pruebas concluyentes, la idea de la trascendencia ha proporcionado consuelo y esperanza a muchas personas en momentos de pérdida y dolor. ¿Puede la trascendencia proporcionar una respuesta definitiva a la pregunta de la vida después de la muerte? Descúbralo en nuestro próximo artículo.
+                       </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </main>
+
+       <!--/Main-->
+       <!--cuerpo-->
+       <section id="contenido" class="">
+         <div class="container-fluid" style="color: white">
+           <input v-show="mostrarInput" ref="paginaPrincipal" type="text" value="Inicio">
+           <input v-show="mostrarInput" ref="linkPrincipal" type="text" value="../../../index.html">
+           <input v-show="mostrarInput" ref="paginaSecundaria" type="text" value="Espiritual">
+           <input v-show="mostrarInput" ref="linkSecundaria" type="text"
+                  value="../../../categorias/espiritual.html">
+           <input v-show="mostrarInput" ref="paginaTercearia" type="text"
+                  value=""¿Existe vida después de la muerte? La trascendencia como respuesta"">
+           <input v-show="mostrarInput" ref="linkTercearia" type="text" value="">
+
+           <div v-html="indiceEnlaces"></div>
+           <br>
+
+           <h3>"¿Existe vida después de la muerte? La trascendencia como respuesta"</h3>
+           <input v-show="mostrarInput" ref="fechaCreacion" type="text" value="12/04/2023">
+           <input v-show="mostrarInput" ref="autorCreacion" type="text" value="Sebastian Tenorio">
+           <input v-show="mostrarInput" ref="PBlogPrimerNivel" type="text" value="../../../">
+
+           <div v-html="entradaBlog"></div>
+           <br>
+           <div class="row">
+
+             <div class="col-12 col-lg-11">
+               <div class="row">
+                 <div class="col-12 col-sm-12 col-md-12 col-lg-9 text-right">
+                   <span class="badge badge-pill badge-primary"
+                         style="background-color: #4ee707; font-size: 15px">título</span>
+                   <span class="badge badge-pill badge-secondary"
+                         style="background-color: rgb(109, 77, 255); font-size: 15px">enlaces</span>
+                   <span class="badge badge-pill badge-success"
+                         style="background-color: #d09d81; font-size: 15px">Extras</span>
+                   <span class="badge badge-pill badge-success" style="background-color: #00CBFE; font-size: 15px">Explicación aburrida, no tan aburrida</span>
+                 </div>
+                 <div class="col-3 col-sm-12 col-md-12 col-lg-3"></div>
+               </div>
+               <div class="col-12">
+                 <div class="row">
+                   <div class="col-12 col-sm-12 col-md-12 col-lg-9">
+                     <div id="contenido-texto">
+                       <!DOCTYPE html>
+<html>
+<head>
+	<title>¿Existe vida después de la muerte? La trascendencia como respuesta</title>
+</head>
+<body>
+	<h1>¿Existe vida después de la muerte? La trascendencia como respuesta</h1>
+	<h2>Introducción</h2>
+	<p>La muerte es un tema que ha fascinado al ser humano desde tiempos inmemoriales. La idea de que la vida puede continuar después de que el cuerpo ha dejado de funcionar es una cuestión que ha sido objeto de debate durante siglos. En este artículo, exploraremos la noción de la trascendencia como respuesta a la pregunta de si existe vida después de la muerte.</p>
+	<h2>¿Qué es la trascendencia?</h2>
+	<p>La trascendencia es un concepto que se refiere a la idea de que hay algo más allá del mundo físico y material. Algunas personas creen que la trascendencia es una respuesta a la pregunta de si existe vida después de la muerte. Según esta creencia, el alma o el espíritu de una persona puede sobrevivir a la muerte del cuerpo y continuar existiendo en un plano superior.</p>
+	<h2>¿Cómo se relaciona la trascendencia con la idea de vida después de la muerte?</h2>
+	<p>Para aquellos que creen en la trascendencia, la idea de que el alma puede sobrevivir a la muerte del cuerpo es una respuesta a la pregunta de si existe vida después de la muerte. Si bien la trascendencia no es una prueba concluyente de que la vida continúa después de la muerte, es una creencia que proporciona consuelo y esperanza a quienes creen en ella.</p>
+	<h2>¿Qué dice la ciencia sobre la vida después de la muerte?</h2>
+	<p>A pesar de los avances en la tecnología y la medicina, la ciencia aún no ha encontrado pruebas concluyentes de que la vida continúa después de la muerte. Para la mayoría de los científicos, la idea de la trascendencia es una cuestión de fe o creencia personal, no de evidencia científica.</p>
+	<h2>Conclusión</h2>
+	<p>En última instancia, la pregunta de si existe vida después de la muerte sigue siendo un misterio. La trascendencia como respuesta es una creencia personal que proporciona consuelo y esperanza a quienes creen en ella. La ciencia, por otro lado, no ha encontrado pruebas concluyentes de que la vida continúa después de la muerte.</p>
+	<h2>Preguntas frecuentes</h2>
+	<h3>¿Qué es la trascendencia?</h3>
+	<p>La trascendencia es un concepto que se refiere a la idea de que hay algo más allá del mundo físico y material.</p>
+	<h3>¿Qué relación tiene la trascendencia con la idea de vida después de la muerte?</h3>
+	<p>Para aquellos que creen en la trascendencia, la idea de que el alma puede sobrevivir a la muerte del cuerpo es una respuesta a la pregunta de si existe vida después de la muerte.</p>
+	<h3>¿Qué dice la ciencia sobre la vida después de la muerte?</h3>
+	<p>La ciencia aún no ha encontrado pruebas concluyentes de que la vida continúa después de la muerte.</p>
+	<h3>¿Por qué la trascendencia es una creencia personal?</h3>
+	<p>La trascendencia es una creencia personal porque no hay evidencia científica concluyente que respalde esta idea.</p>
+	<h3>¿Por qué la creencia en la trascendencia proporciona consuelo y esperanza?</h3>
+	<p>La creencia en la trascendencia proporciona consuelo y esperanza porque sugiere que la vida no termina con la muerte y que el alma puede continuar existiendo en un plano superior.</p>
+</body>
+</html>
+                     </div>
+
+                   </div>
+                   <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                     <div id="post-recientes">
+                       <hr class="border border-warning border-2 opacity-50" style="color: orange">
+                       <h1 style="color: orange">Novedades</h1>
+
+                       <div class="novedad">
+                         <a href="../mentalidad/Consejos_practicos_para_mejorar_el_autoestima.html">
+                           <div class="row">
+                             <div class="col-6">
+                               <img src="../../assets/img/mujer-sonriente-t.jpg" class="img-fluid" alt="...">
+                             </div>
+                             <div class="col-6">
+                               <h4><b>Consejos Prácticos para Mejorar el Autoestima</b></h4>
+                               <span class="small">marzo 2, 2023</span>
+                               <hr class="d-none d-col-sm-none d-md-block col-lg-block">
+                             </div>
+                           </div>
+                         </a>
+                         <br>
+                       </div>
+                       <div class="novedad">
+                         <a href="../mentalidad/Consejos_practicos_para_mejorar_el_autoestima.html">
+                           <div class="row">
+                             <div class="col-6">
+                               <img src="../../assets/img/autoestima-1.jpg" class="img-fluid" alt="...">
+                             </div>
+                             <div class="col-6">
+                               <h4><b>Consejos para mejorar tu autoestima y aumentar tu confianza</b></h4>
+                               <span class="small">marzo 2, 2023</span>
+                               <hr class="d-none d-col-sm-none d-md-block col-lg-block">
+                             </div>
+                           </div>
+                         </a>
+                         <br>
+                       </div>
+
+                     </div>
+                   </div>
+                 </div>
+               </div>
+
+
+             </div>
+
+           </div>
+           <br>
+           <br>
+
+
+           <h3>Comentarios</h3>
+
+           <div class="row mt-4">
+             <div class="col-12 col-md-10 col-lg-10">
+               <div class="row">
+                 <div class="col-12 mb-2">
+                           <textarea class="form-control" style="background-color: black; color: white;" name="texto"
+                                     id="validationTextarea" placeholder="Dime lo que piensas..." required></textarea>
+                 </div>
+                 <div class="col-12">
+                   <div class="row">
+                     <div class="col-8">
+                       <div class="row">
+                         <div class="col-4 text-left text-md-right text-lg-right">
+                           <label for="commet" id="resaltar">Comentar como:</label>
+                         </div>
+                         <div class="col-8 text-left">
+                           <input type="text" id="identityMenu" list="lista_opciones"/>
+
+                           <datalist id="lista_opciones" name="commet" dir="ltr">
+                             <option value="NONE" disabled="">Seleccionar perfil...</option>
+                             <option value="Anónimo">Anónimo</option>
+                           </datalist>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="col-4 text-right">
+                       <button type="button" id="Enviar" class="btn btn-warning" onclick="Enviar()">Comentar</button>
+                     </div>
+                   </div>
+
+                   <div class="col-12">
+                     <div class="row">
+                       <div class="col-12">
+                         <button type="button" id="NumeroDeComentarios" class="btn btn-warning mt-2" style="width: 100%"
+                                 onclick="Generar()">
+                           Warning
+                         </button>
+                       </div>
+                     </div>
+                   </div>
+
+                   <div class="col-12">
+                     <div class="row">
+                       <div class="col-12">
+                         <button type="button" id="NumeroDeComentariosCerrar" class="btn btn-warning mt-2"
+                                 style="width: 100%; display: none" onclick="CerrarLoGenerar()">
+                           Cerrar Comentarios
+                         </button>
+                       </div>
+                     </div>
+                   </div>
+
+                   <!--Comentarios Generados -->
+                   <div id="PosicionarComentarios">
+                   </div>
+                   <div class="col-12">
+                     <div class="row">
+                       <div class="col-12">
+                         <button type="button" id="NumeroDeComentariosCerrar" class="btn btn-warning mt-2"
+                                 style="width: 100%; display: none" onclick="CerrarLoGenerar()">
+                           Cerrar Comentarios
+                         </button>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="col-12 col-md-2 col-lg-2"></div>
+               </div>
+             </div>
+             <div class="col-12 col-lg-3">
+
+             </div>
+           </div>
+         </div>
+       </section>
+       <!--/cuerpo-->
+
+       </div>
+
+
+       <!--footer-->
+       <div id="footer">
+         <div v-html="footerP_blog"></div>
+       </div>
+       <!--/footer-->
+
+       <!--Vue.js-->
+       <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+       <!--Final Vue.js-->
+
+       <!-- No mirar apartir de aqui-->
+       <!-- Bootstrap core JS-->
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+       <!-- Core theme JS-->
+       <script src="../../js/scripts.js"></script>
+
+       <div class="aviso-cookies" id="aviso-cookies">
+         <img class="galleta" src="../../assets/img/cookie.svg" alt="Galleta">
+         <h3 class="titulo">Cookies</h3>
+         <p class="parrafo">Utilizamos cookies propias y de terceros para mejorar nuestros servicios.</p>
+         <button class="boton" id="btn-aceptar-cookies">De acuerdo</button>
+         <a class="enlace" href="../../politicasPrivacidad/aviso-cookies.html">Aviso de Cookies</a>
+       </div>
+       <div class="fondo-aviso-cookies" id="fondo-aviso-cookies"></div>
+
+       <script src="../../js/aviso-cookies.js"></script>
+       <!-- Termina No mirar apartir de aqui-->
+
+       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+               integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+               crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+               integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+               crossorigin="anonymous"></script>
+       <script src="../../../JS/HeredarArticulos.js"></script>
+       <script src="../../../JS/articulos-Jquery.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+       <script src="../../../Vue/template/navbar.js"></script>
+       <script src="../../../Vue/template/footer.js"></script>
+
+     </main>
+     </body>
+     </html>
+
+
