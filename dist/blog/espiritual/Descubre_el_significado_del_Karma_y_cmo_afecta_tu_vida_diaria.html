@@ -1,0 +1,378 @@
+
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+       <!-- Required meta tags -->
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+       <!-- Bootstrap CSS -->
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+             integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+       <link rel="stylesheet" href="../../../CSS/index.css"/>
+       <title>Nuestro Desarrollo Personal</title>
+       <link rel="icon" type="image/png" href="../../img/logo.png"/>
+
+       <!-- Google Tag Manager -->
+       <script>(function (w, d, s, l, i) {
+         w[l] = w[l] || [];
+         w[l].push({
+           'gtm.start':
+                   new Date().getTime(), event: 'gtm.js'
+         });
+         var f = d.getElementsByTagName(s)[0],
+                 j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+         j.async = true;
+         j.src =
+                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+         f.parentNode.insertBefore(j, f);
+       })(window, document, 'script', 'dataLayer', 'GTM-PMWF92R');</script>
+       <!-- End Google Tag Manager -->
+
+       <title>Clean Blog - Start Bootstrap Theme</title>
+       <link rel="icon" type="image/x-icon" href="../../assets/favicon.ico"/>
+       <!-- Font Awesome icons (free version)-->
+       <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+       <!-- Google fonts-->
+       <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
+             type="text/css"/>
+       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+             rel="stylesheet" type="text/css"/>
+       <!-- Core theme CSS (includes Bootstrap)-->
+       <link href="../../css/estilos.css" rel="stylesheet"/>
+
+       <!-- Google tag (gtag.js) -->
+       <script async src="https://www.googletagmanager.com/gtag/js?id=G-EMFE9ECW0Q"></script>
+       <script>
+         window.dataLayer = window.dataLayer || [];
+
+         function gtag() {
+           dataLayer.push(arguments);
+         }
+
+         gtag('js', new Date());
+
+         gtag('config', 'G-EMFE9ECW0Q');
+       </script>
+
+       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2374407174542373"
+               crossorigin="anonymous"></script>
+       <script src="../../../Vue/template/navbar.js"></script>
+       <!-- Core theme CSS (includes Bootstrap)-->
+
+     </head>
+
+     <body>
+
+
+     <!-- Google Tag Manager (noscript) -->
+     <noscript>
+       <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMWF92R"
+               height="0" width="0" style="display:none;visibility:hidden"></iframe>
+     </noscript>
+     <!-- End Google Tag Manager (noscript) -->
+
+
+     <main>
+
+       <div id="app">
+
+         <input v-show="mostrarInput" ref="rutaIndex" type="text" value="../../../index.html">
+         <input v-show="mostrarInput" ref="rutaCategorias" type="text" value="../../../categorias/">
+         <input v-show="mostrarInput" ref="rutaSobreMi" type="text" value="../../../sobremi.html">
+         <input v-show="mostrarInput" ref="rutaImagen" type="text"
+                value="../../assets/img/logo-bKthKv-Qu-transformed (1).png">
+
+         <div v-html="navPage"></div>
+
+
+         <!--Main-->
+         <main id="main">
+           <div id="carousel" class="carousel slide carousel-fade mb-4" data-ride="carousel" data-pause="false">
+             <div class="carousel-inner">
+               <div class="carousel-item active">
+                 <img class="d-block w-100" src="../../assets/img/espiritual.jpg" alt="Hawaii 1">
+               </div>
+               <div class="overlay">
+                 <div class="container">
+                   <div class="row align-items-center">
+                     <div class="col-md-6 offset-md-6 text-center text-md-right">
+                       <h1>Descubre el significado del Karma y cómo afecta tu vida diaria</h1>
+                       <p class="d-md-block">
+                         El Karma se refiere a la creencia de que nuestras acciones tienen consecuencias. Si hacemos cosas buenas, recibiremos cosas buenas; si hacemos cosas malas, recibiremos cosas malas. Esta filosofía se aplica a todas las áreas de nuestra vida, desde nuestras relaciones hasta nuestro éxito profesional. Es importante ser conscientes de cómo nuestras acciones pueden afectar a nuestro Karma y hacer un esfuerzo para actuar siempre con integridad y bondad. ¡Descubre cómo el Karma puede moldear tu vida diaria y trabaja para asegurarte de que siempre estás acumulando buen Karma!
+                       </p>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </main>
+
+       <!--/Main-->
+       <!--cuerpo-->
+       <section id="contenido" class="">
+         <div class="container-fluid" style="color: white">
+           <input v-show="mostrarInput" ref="paginaPrincipal" type="text" value="Inicio">
+           <input v-show="mostrarInput" ref="linkPrincipal" type="text" value="../../../index.html">
+           <input v-show="mostrarInput" ref="paginaSecundaria" type="text" value="Espiritual">
+           <input v-show="mostrarInput" ref="linkSecundaria" type="text"
+                  value="../../../categorias/espiritual.html">
+           <input v-show="mostrarInput" ref="paginaTercearia" type="text"
+                  value="Descubre el significado del Karma y cómo afecta tu vida diaria">
+           <input v-show="mostrarInput" ref="linkTercearia" type="text" value="">
+
+           <div v-html="indiceEnlaces"></div>
+           <br>
+
+           <h3>Descubre el significado del Karma y cómo afecta tu vida diaria</h3>
+           <input v-show="mostrarInput" ref="fechaCreacion" type="text" value="14/04/2023">
+           <input v-show="mostrarInput" ref="autorCreacion" type="text" value="Sebastian Tenorio">
+           <input v-show="mostrarInput" ref="PBlogPrimerNivel" type="text" value="../../../">
+
+           <div v-html="entradaBlog"></div>
+           <br>
+           <div class="row">
+
+             <div class="col-12 col-lg-11">
+               <div class="row">
+                 <div class="col-12 col-sm-12 col-md-12 col-lg-9 text-right">
+                   <span class="badge badge-pill badge-primary"
+                         style="background-color: #4ee707; font-size: 15px">título</span>
+                   <span class="badge badge-pill badge-secondary"
+                         style="background-color: rgb(109, 77, 255); font-size: 15px">enlaces</span>
+                   <span class="badge badge-pill badge-success"
+                         style="background-color: #d09d81; font-size: 15px">Extras</span>
+                   <span class="badge badge-pill badge-success" style="background-color: #00CBFE; font-size: 15px">Explicación aburrida, no tan aburrida</span>
+                 </div>
+                 <div class="col-3 col-sm-12 col-md-12 col-lg-3"></div>
+               </div>
+               <div class="col-12">
+                 <div class="row">
+                   <div class="col-12 col-sm-12 col-md-12 col-lg-9">
+                     <div id="contenido-texto">
+                       <!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Descubre el significado del Karma y cómo afecta tu vida diaria</title>
+</head>
+<body>
+	<h1>Descubre el significado del Karma y cómo afecta tu vida diaria</h1>
+	<p>¿Alguna vez has escuchado hablar del Karma? Seguramente sí. Esta palabra de origen sánscrito se ha popularizado en todo el mundo y es utilizada por muchas personas para hacer referencia a las consecuencias de nuestras acciones. En este artículo, te explicaremos en qué consiste el Karma, cómo funciona y cómo puede afectar tu vida diaria.</p>
+	
+	<h2>¿Qué es el Karma?</h2>
+	<p>El Karma es una ley cósmica que se basa en la idea de que toda acción tiene una consecuencia. Según esta creencia, cada acción que realizamos, ya sea buena o mala, genera una energía que se acumula y que, en algún momento, volverá a nosotros en forma de consecuencia.</p>
+	
+	<h2>¿Cómo funciona el Karma?</h2>
+	<p>El Karma se rige por la ley de causa y efecto. Esto significa que cada acción que realizamos tiene una consecuencia que puede ser positiva o negativa, y que esta consecuencia dependerá de la intención con la que se realizó la acción. Si hacemos algo con una intención pura y amorosa, el resultado será positivo. Pero si lo hacemos con una intención egoísta o malvada, el resultado será negativo.</p>
+	
+	<h2>¿Cómo afecta el Karma a tu vida diaria?</h2>
+	<p>El Karma puede afectar tu vida diaria de muchas maneras. Si te enfocas en hacer buenas acciones y tener intenciones positivas, el Karma te recompensará con cosas buenas. Pero si te enfocas en hacer cosas malas y tener intenciones negativas, el Karma te castigará con cosas negativas. Por eso es importante ser consciente de tus acciones y de tus intenciones, ya que esto determinará el tipo de energía que estás generando y, por lo tanto, el tipo de consecuencias que tendrás en tu vida.</p>
+	
+	<h2>Conclusión</h2>
+	<p>En resumen, el Karma es una ley cósmica que se basa en la idea de que toda acción tiene una consecuencia. Esta ley se rige por la ley de causa y efecto, y puede afectar nuestra vida diaria de muchas maneras. Por eso es importante ser consciente de nuestras acciones y de nuestras intenciones, ya que esto determinará el tipo de energía que estamos generando y, por lo tanto, el tipo de consecuencias que tendremos en nuestra vida.</p>
+	
+	<h2>Preguntas frecuentes sobre el Karma</h2>
+	<ol>
+		<li>
+			<h3>¿El Karma es una creencia religiosa?</h3>
+			<p>El Karma tiene su origen en la religión hindú y budista, pero no es considerado una creencia religiosa en sí misma. Muchas personas de diferentes religiones y culturas creen en el Karma.</p>
+		</li>
+		<li>
+			<h3>¿El Karma es algo que se puede medir o comprobar científicamente?</h3>
+			<p>No, el Karma no es algo que se pueda medir o comprobar científicamente. Es una creencia espiritual que se basa en la idea de que todo está conectado y que nuestras acciones tienen consecuencias.</p>
+		</li>
+		<li>
+			<h3>¿El Karma puede cambiar?</h3>
+			<p>Sí, el Karma puede cambiar. Si realizamos acciones positivas y tenemos intenciones puras, podemos cambiar la energía negativa que hemos acumulado y generar una energía positiva. Lo mismo ocurre si realizamos acciones negativas y tenemos intenciones egoístas.</p>
+		</li>
+		<li>
+			<h3>¿El Karma es algo que está fuera de nuestro control?</h3>
+			<p>No, el Karma no está fuera de nuestro control. Si bien no podemos controlar todas las situaciones que se nos presentan en la vida, sí podemos controlar nuestras acciones y nuestras intenciones.</p>
+		</li>
+		<li>
+			<h3>¿El Karma es algo que solo afecta a las personas?</h3>
+			<p>No, el Karma no solo afecta a las personas. También puede afectar a los animales, a la naturaleza y a todo lo que nos rodea. Todo está conectado y nuestras acciones tienen un impacto en el mundo que nos rodea.</p>
+		</li>
+	</ol>
+</body>
+</html>
+                     </div>
+
+                   </div>
+                   <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+                     <div id="post-recientes">
+                       <hr class="border border-warning border-2 opacity-50" style="color: orange">
+                       <h1 style="color: orange">Novedades</h1>
+
+                       <div class="novedad">
+                         <a href="../mentalidad/Consejos_practicos_para_mejorar_el_autoestima.html">
+                           <div class="row">
+                             <div class="col-6">
+                               <img src="../../assets/img/mujer-sonriente-t.jpg" class="img-fluid" alt="...">
+                             </div>
+                             <div class="col-6">
+                               <h4><b>Consejos Prácticos para Mejorar el Autoestima</b></h4>
+                               <span class="small">marzo 2, 2023</span>
+                               <hr class="d-none d-col-sm-none d-md-block col-lg-block">
+                             </div>
+                           </div>
+                         </a>
+                         <br>
+                       </div>
+                       <div class="novedad">
+                         <a href="../mentalidad/Consejos_practicos_para_mejorar_el_autoestima.html">
+                           <div class="row">
+                             <div class="col-6">
+                               <img src="../../assets/img/autoestima-1.jpg" class="img-fluid" alt="...">
+                             </div>
+                             <div class="col-6">
+                               <h4><b>Consejos para mejorar tu autoestima y aumentar tu confianza</b></h4>
+                               <span class="small">marzo 2, 2023</span>
+                               <hr class="d-none d-col-sm-none d-md-block col-lg-block">
+                             </div>
+                           </div>
+                         </a>
+                         <br>
+                       </div>
+
+                     </div>
+                   </div>
+                 </div>
+               </div>
+
+
+             </div>
+
+           </div>
+           <br>
+           <br>
+
+
+           <h3>Comentarios</h3>
+
+           <div class="row mt-4">
+             <div class="col-12 col-md-10 col-lg-10">
+               <div class="row">
+                 <div class="col-12 mb-2">
+                           <textarea class="form-control" style="background-color: black; color: white;" name="texto"
+                                     id="validationTextarea" placeholder="Dime lo que piensas..." required></textarea>
+                 </div>
+                 <div class="col-12">
+                   <div class="row">
+                     <div class="col-8">
+                       <div class="row">
+                         <div class="col-4 text-left text-md-right text-lg-right">
+                           <label for="commet" id="resaltar">Comentar como:</label>
+                         </div>
+                         <div class="col-8 text-left">
+                           <input type="text" id="identityMenu" list="lista_opciones"/>
+
+                           <datalist id="lista_opciones" name="commet" dir="ltr">
+                             <option value="NONE" disabled="">Seleccionar perfil...</option>
+                             <option value="Anónimo">Anónimo</option>
+                           </datalist>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="col-4 text-right">
+                       <button type="button" id="Enviar" class="btn btn-warning" onclick="Enviar()">Comentar</button>
+                     </div>
+                   </div>
+
+                   <div class="col-12">
+                     <div class="row">
+                       <div class="col-12">
+                         <button type="button" id="NumeroDeComentarios" class="btn btn-warning mt-2" style="width: 100%"
+                                 onclick="Generar()">
+                           Warning
+                         </button>
+                       </div>
+                     </div>
+                   </div>
+
+                   <div class="col-12">
+                     <div class="row">
+                       <div class="col-12">
+                         <button type="button" id="NumeroDeComentariosCerrar" class="btn btn-warning mt-2"
+                                 style="width: 100%; display: none" onclick="CerrarLoGenerar()">
+                           Cerrar Comentarios
+                         </button>
+                       </div>
+                     </div>
+                   </div>
+
+                   <!--Comentarios Generados -->
+                   <div id="PosicionarComentarios">
+                   </div>
+                   <div class="col-12">
+                     <div class="row">
+                       <div class="col-12">
+                         <button type="button" id="NumeroDeComentariosCerrar" class="btn btn-warning mt-2"
+                                 style="width: 100%; display: none" onclick="CerrarLoGenerar()">
+                           Cerrar Comentarios
+                         </button>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="col-12 col-md-2 col-lg-2"></div>
+               </div>
+             </div>
+             <div class="col-12 col-lg-3">
+
+             </div>
+           </div>
+         </div>
+       </section>
+       <!--/cuerpo-->
+
+       </div>
+
+
+       <!--footer-->
+       <div id="footer">
+         <div v-html="footerP_blog"></div>
+       </div>
+       <!--/footer-->
+
+       <!--Vue.js-->
+       <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+       <!--Final Vue.js-->
+
+       <!-- No mirar apartir de aqui-->
+       <!-- Bootstrap core JS-->
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+       <!-- Core theme JS-->
+       <script src="../../js/scripts.js"></script>
+
+       <div class="aviso-cookies" id="aviso-cookies">
+         <img class="galleta" src="../../assets/img/cookie.svg" alt="Galleta">
+         <h3 class="titulo">Cookies</h3>
+         <p class="parrafo">Utilizamos cookies propias y de terceros para mejorar nuestros servicios.</p>
+         <button class="boton" id="btn-aceptar-cookies">De acuerdo</button>
+         <a class="enlace" href="../../politicasPrivacidad/aviso-cookies.html">Aviso de Cookies</a>
+       </div>
+       <div class="fondo-aviso-cookies" id="fondo-aviso-cookies"></div>
+
+       <script src="../../js/aviso-cookies.js"></script>
+       <!-- Termina No mirar apartir de aqui-->
+
+       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+               integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+               crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+               integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+               crossorigin="anonymous"></script>
+       <script src="../../../JS/HeredarArticulos.js"></script>
+       <script src="../../../JS/articulos-Jquery.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+       <script src="../../../Vue/template/navbar.js"></script>
+       <script src="../../../Vue/template/footer.js"></script>
+
+     </main>
+     </body>
+     </html>
+
+
